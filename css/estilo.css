@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e5e5e5;
+}
+
+a.navbar-brand.color {
+    color: #0f4c81;
+}
+
+
+/* banner */
+
+.banner {
+    background-color: white;
+    padding: 30px;
+}
+
+#cor {
+    color: #fcda73;
+    font-size: 60px;
+}
+
+.fundo {
+    background-color: #e5e5e5;
+}
+
+#tam {
+    font-size: 50px;
+    color: #fcda73;
+}
+
+.caracter {
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+}
+
+#botao {
+    background-color: #0f4c81;
+}
+
+.but {
+    padding: 30px;
+}
+
+#letra {
+    font-size: 12px;
+    padding: 25px;
+}
+
+
+/* foooter */
+
+.rodape {
+    background-color: #333333;
+    padding: 15px;
+}
+
+ul li a {
+    color: white;
+}
+
+#face {
+    width: 100px;
+}
