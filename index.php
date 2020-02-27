@@ -26,7 +26,7 @@
                         <input type="password" name="senha" id="Senha" placeholder="Senha" required><br>
                         <button type="button" class="btn btn-primary btn-sm ">Login</button>
                     </div>
-                </form>
+                      </form>
 
             </nav>
         </div>

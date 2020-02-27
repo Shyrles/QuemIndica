@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -12,10 +14,96 @@ header {
     background-color: #e5e5e5;
 }
 
+.nav_barra {
+    height: 60px;
+}
+
+
+
 a.navbar-brand.color {
     color: #0f4c81;
 }
 
+
+/* barra de busca */
+
+#divBusca{
+    background-color: white;
+    border:solid 1px;
+    border-color: #cccccc;
+    border-radius:5px;
+    width:350px;
+    height: 40px;
+  }
+   
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width:315px;
+  }
+
+#btnBusca {
+    width: 25px;
+    position: relative;
+    margin: 6px 0 6px 0;
+}
+
+.btn-dark {
+    background: #00415E;
+}
+
+.btn-info {
+    background: #219EBC;
+}
+
+.hamburguer {
+    margin-left: 50px;
+}
+
+.banner_azul {
+    background-color: #007592;
+    background-size: cover;
+    width: 100%;
+    height: 47vh;
+  }
+
+#quemindica {
+    margin-top: 90px;
+    width: 15%;
+}
+
+.banner_azul h1 {
+    color: #FCDA73;
+}
+
+/* sobre nós */
+.banner_conteudo {
+    background-color: #E2E2E7;
+    background-size: cover;
+    width: 100%;
+}
+
+#grupo {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+span#sobre  {
+    padding: 5px;
+    font-size: 1,2em;
+    line-height: 35px;
+}
+
+span#sobre h4 {
+    color: #666666;
+    margin-bottom: 10px;
+}
 
 /* banner */
 
@@ -57,6 +145,30 @@ a.navbar-brand.color {
     padding: 25px;
 }
 
+/* FAQ */
+
+.question-1 {
+    margin-top: 200px;
+}
+
+.question {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0
+  }
+  
+  .question input,
+  .question .answer { display: none }
+  
+  .question label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%
+  }
+  
+  .question input:checked ~ .answer {
+    display: block
+  }
 
 /* foooter */
 
