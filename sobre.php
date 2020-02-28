@@ -56,72 +56,7 @@
         
         </div>
     </section>
-
-<!-- 
-    <footer>
-        <div class="rodape">
-            <div class="container d-flex">
-                <ul class="nav flex-inline">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Termos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Dados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Cookies</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-    </footer> -->
-    <footer>
-        <div class="rodape">
-        <!-- esquerda -->
-        
-        <div class="container d-flex">
-
-            <ul class="nav flex-inline">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Copyright © 2020</a>
-                  </li>
-
-            </ul>
-       
-      <!-- direita -->
-        <ul class="flex-row ml-md-auto d-none d-md-flex">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ajuda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Termos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Dados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Cookies</a>
-            </li>       
-                      
-        </ul>
-
-        </div>
-       
-      </footer>
+<?= require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -156,6 +156,7 @@ header {
 .banner_azul {
     background-color: #007592;
     background-size: cover;
+    color: #FCDA73;
     width: 100%;
     height: 47vh;
   }
