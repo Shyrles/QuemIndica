@@ -18,12 +18,22 @@
             </li>
            
         </ul>
-
-        <div class="dropdown">
             
-            <a class="hamburguer" href="#" aria-label="Quem Indica"><img src="imagens/icones_dropdown.svg" width="30" height="30" 
-                class="d-inline-block align-top" alt=""></a>
+            <div class="btn-group hamburguer">
+                <span data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg id="Layer_1" height="1.5em" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770.78 584.72"><defs>
+                        <style>.cls-1{fill:#e5e5e5;}</style></defs><title>Untitled-1</title><path class= "cls-1" 
+                        d="M65.46,130.91H705.33a65.13,65.13,0,0,0,33.22-9.06c.23-.14.48-.27.71-.42s.72-.46,1.08-.69c.53-.33,1.07-.66,1.58-1l.16-.11A65.46,65.46,0,0,0,705.32,0H65.45A65.45,65.45,0,0,0,0,65.45v0A65.45,65.45,0,0,0,65.46,130.91Z" transform="translate(0 0)"/>
+                        <path class="cls-1" d="M705.32,226.9H65.46a65.46,65.46,0,0,0,0,130.91H705.32a65.46,65.46,0,1,0,0-130.91Z" transform="translate(0 0)"/><path class="cls-1" d="M768.64,502.63c-.25-.95-.52-1.9-.81-2.83a65.6,65.6,0,0,0-62.51-46H65.46a65.46,65.46,0,0,0,0,130.91H705.32a65.49,65.49,0,0,0,63.39-81.82C768.69,502.81,768.66,502.72,768.64,502.63Z" 
+                        transform="translate(0 0)"/></svg>
+                </span>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <button class="dropdown-item" type="button">Ação</button>
+                  <button class="dropdown-item" type="button">Another Ação</button>
+                  <button class="dropdown-item" type="button">Algo mais aqui</button>
+                </div>
+              </div>
         
-            </div>
+
 
       </header>
