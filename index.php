@@ -29,7 +29,7 @@
                 <div class="col-md-6 d-inline text-center">
                     <div class="but text-justify">
                     
-                        <h3 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h3>
+                        <h2 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h2>
                         <br>
                         <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
                             Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
@@ -102,6 +102,31 @@
             </div>
 
     </section>
+
+    <section class="banner_team">
+           
+            <div class="row">
+
+                <div class="col-md-6 d-inline-block">
+              
+                    <img src="imagens/team.png" class="team" alt="">
+                </div>
+
+                <div class="col-md-6 d-inline text-center">
+                    <div class="but text-justify">
+                    
+                        <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
+                        <br>
+                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt="">
+                        
+                        <h3 class="text-center" id="margem_texto_b"><strong>E por todos!</strong></h3>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
 <?= require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
