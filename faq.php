@@ -15,52 +15,22 @@
 
 <body>
     
-    <header class="navbar navbar-expand flex-column flex-md-row bd-navbar fixed-top">
+    <?= require_once ("header_log.php"); ?>
 
-        <!-- Logo esquerda -->
-    <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Quem Indica"><img src="imagens/logo_icon.svg" width="40" height="40" 
-            class="d-inline-block align-top" alt=""></a>
-      
-      <!-- Barra de busca -->
-      <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-        <a href="#"><img src="imagens/loupe.png" id="btnBusca" alt="Buscar" /></a>
-      </div>
-           
-      <!-- Botões direita -->
-        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><button type="button" class="btn btn-dark">Registrar</button></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><button type="button" class="btn btn-info">Entrar</button></a>
-            </li>
-           
-        </ul>
+    <section class="banner_cinza">
 
-        <div class="dropdown">
-            
-            <a class="hamburguer" href="#" aria-label="Quem Indica"><img src="imagens/icones_dropdown.svg" width="30" height="30" 
-                class="d-inline-block align-top" alt=""></a>
-        
-            </div>
-
-      </header>
-
-    <section class="banner_azul">
-
-        <div class="container text-center">
-        <img src="imagens/logo_icon.svg" class="rounded" id="quemindica" alt="Quem Indica">
-        <h1><strong>Perguntas frequentes</strong></h1>
+    <div class="d-flex align-items-center">
+        <img src="imagens/hashtag-01.png" class="rounded" id="hashtag" alt="Quem Indica">
+        <h1 class="d-inline"><strong>faq</strong></h1>
         </div>
 
     </section>
 
-    <section class="banner_conteudo">
+    <section class="banner_faq">
         <div class="container">
         <div class='question'>
             <input type='checkbox' id='question-1'>
-            <label for='question-1'>Qual sua pergunta?</label>
+            <label for='question-1' class="perguntas">Qual sua pergunta?</label>
             <div class='answer'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
               voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
@@ -123,75 +93,77 @@
                 ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
             </div>
           </div>
+
+        <div class='question'>
+            <input type='checkbox' id='question-7'>
+            <label for='question-7'>Qual sua pergunta?</label>
+            <div class='answer'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+              voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+              ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div>
+          
+          <div class='question'>
+            <input type='checkbox' id='question-8'>
+            <label for='question-8'>Qual sua pergunta?</label>
+            <div class='answer'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+                voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+                ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div>
+
+          <div class='question'>
+            <input type='checkbox' id='question-9'>
+            <label for='question-9'>Qual sua pergunta?</label>
+            <div class='answer'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+                voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+                ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div>
+
+          <div class='question'>
+            <input type='checkbox' id='question-10'>
+            <label for='question-10'>Qual sua pergunta?</label>
+            <div class='answer'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+                voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+                ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div>  
         
+          <div class='question'>
+            <input type='checkbox' id='question-11'>
+            <label for='question-11'>Qual sua pergunta?</label>
+            <div class='answer'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+                voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+                ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div> 
+
+          <div class='question'>
+            <input type='checkbox' id='question-12'>
+            <label for='question-12'>Qual sua pergunta?</label>
+            <div class='answer'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis id, ratione, excepturi sint, vero repellendus quasi 
+                voluptas enim aspernatur amet odit sunt iure laudantium dolores incidunt eaque delectus quam. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Reprehenderit, magnam excepturi ab amet est laboriosam repellendus natus soluta ipsam provident 
+                ex quo laudantium earum tempora tenetur quas, doloremque perspiciatis placeat!
+            </div>
+          </div>
+
         </div>
     </section>
 
-<!-- 
-    <footer>
-        <div class="rodape">
-            <div class="container d-flex">
-                <ul class="nav flex-inline">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Termos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Dados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Cookies</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-    </footer> -->
-    <footer>
-        <div class="rodape fixed-bottom">
-        <!-- esquerda -->
-        
-        <div class="container d-flex">
-
-            <ul class="nav flex-inline">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Copyright © 2020</a>
-                  </li>
-
-            </ul>
-       
-      <!-- direita -->
-        <ul class="flex-row ml-md-auto d-none d-md-flex">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ajuda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Termos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Dados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Cookies</a>
-            </li>       
-                      
-        </ul>
-
-        </div>
-       
-      </footer>
+<?= require_once ("footer.php");?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
