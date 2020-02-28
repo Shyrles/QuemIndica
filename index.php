@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <title>QUEM INDICA</title>
@@ -14,78 +14,38 @@
 </head>
 
 <body>
-    <header>
-        <div class="color">
-            <nav class="navbar navbar-light container ">
-                <a class="navbar-brand " href="#">
-                    <img src="imagens/LOGO.png" width="40" height="40" class="d-inline-block align-top" alt=""> Quem Indica</a>
+    <?= require_once ("header_deslog.php"); ?>
 
-                <form action="index.html" method="POST">
-                    <div class="d-flex ">
-                        <input type="email" name="email" id="email" placeholder="E-mail" required><br>
-                        <input type="password" name="senha" id="Senha" placeholder="Senha" required><br>
-                        <button type="button" class="btn btn-primary btn-sm ">Login</button>
-                    </div>
-                      </form>
+    
+    <section class="banner_top">
+        
+            
+        
+            <div class="row">
 
-            </nav>
-        </div>
-    </header>
-    <section>
-        <div class="container">
-            <div class="row banner">
                 <div class="col-md-6 d-inline-block">
-                    <!-- <h2 id="tam">Sobre Nós</h2> -->
-
-                    <!-- <p class="caracter "> -->
-                    <!-- Essa é uma Rede Social onde você poderá interagir pedindo e fornecendo indicações. Através de hashtags você escolhe o seu tema preferido , podendo assim ter em seu feed de notícias as indicações que mais lhe agrada.</p> -->
-                    <!-- <p class="caracter">Os seus interesses serão escolhidos por hashtags que você poderá definir como favoritas.</p> -->
-                    <p class="caracter">Estamos prontos para ajudar você encontrar o profissional que precisa</p>
-                    <img src="imagens/banner02.jpg" width="350" height="300" alt="">
+              
+                    <img src="imagens/services.png" class="service" alt="">
                 </div>
 
-                <div class="col-md-6 d-inline text-center ">
-                    <img src="imagens/LOGO.png" class="d-inline-block  " width="150" height="150" alt="">
-                    <!-- <h2 id="cor">Quem Indica</h2> -->
+                <div class="col-md-6 d-inline text-center">
                     <div class="but text-justify">
-                        <button id="botao" type="button" class="btn btn-primary btn-lg btn-block">Cadastre -se</button>
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">Faça seu Login</button>
-
-                        <p id="letra">Ao se cadastrar você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser </p>
+                    
+                        <h3 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa</strong></h3>
+                        <br>
+                        <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
+                            aperiam autem!</p>
+                        <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
+                            aperiam autem!</p>
 
                     </div>
                 </div>
             </div>
-        </div>
+
     </section>
-    <footer>
-        <div class="rodape">
-            <div class="container d-flex">
-                <ul class="nav flex-inline">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Termos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Dados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Cookies</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-    </footer>
+<?= require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
