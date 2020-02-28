@@ -31,7 +31,7 @@
                 <div class="col-md-6 d-inline text-center">
                     <div class="but text-justify">
                     
-                        <h3 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa</strong></h3>
+                        <h3 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h3>
                         <br>
                         <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
                             Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
@@ -41,6 +41,65 @@
                             aperiam autem!</p>
 
                     </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="banner_cadastro">     
+                    
+        <div class="d-flex justify-content-center">
+        <form class="alinha_form">
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                <label class="sr-only" for="inlineFormInput">Nome</label>
+                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nome e sobrenome">
+                </div>
+                <div class="col-auto">
+                <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="usuario">
+                </div>
+                </div>
+                <div class="col-auto">
+                <button type="submit" class="btn btn-info mb-2 btn-azul">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+        </div>
+
+    </section>
+
+    <section class="banner_middle">
+        
+            
+        
+            <div class="row">
+
+                <div class="col-md-6 d-inline-block">
+                <div class="but text-justify">
+                    
+                        <h3 class="text-center" id="margem_texto"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h3>
+                        <br>
+                        <p class="texto_meio">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
+                            aperiam autem!</p>
+                        <p class="texto_meio">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
+                            aperiam autem!</p>
+
+                    </div>
+              
+                    
+                </div>
+
+                <div class="col-md-6 d-inline text-center">
+
+                <img src="imagens/rede_social.png" class="img_rede_social" alt="">
+                    
                 </div>
             </div>
 

@@ -21,9 +21,7 @@ header {
 
 
 
-a.navbar-brand.color {
-    color: #0f4c81;
-}
+/* banner index topo */
 
 .banner_top {
     margin-top: 50px;
@@ -33,7 +31,9 @@ a.navbar-brand.color {
     width: 100%;
     height: 78vh;
 }
+
 .service {
+    margin-left: 25px;
     margin-top: 80px;
     width: 100%;
 }
@@ -57,6 +57,71 @@ a.navbar-brand.color {
     text-transform: uppercase;
 }
 
+
+#cor {
+    color: #fcda73;
+    font-size: 60px;
+}
+
+.fundo {
+    background-color: #007592;
+}
+
+#tam {
+    font-size: 50px;
+    color: #fcda73;
+}
+
+.caracter {
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.but {
+    padding: 30px;
+}
+
+/* banner index meio */
+
+.banner_middle {
+    background-color: #e5e5e5;
+    color: #007592;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.texto_meio {
+    color: #333333;
+    padding: 5px;
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+.img_rede_social {
+    margin-right: 25px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+/* banner cadastro index */
+
+.banner_cadastro {
+    background-color: #FCDA73;
+    color: #e5e5e5;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+}
+
+.alinha_form {
+    margin-top: 16px;
+}
+
+.btn-azul {
+    background: #00415e;
+}
 /* barra de busca */
 
 #divBusca{
@@ -129,38 +194,6 @@ span#sobre h4 {
     margin-bottom: 10px;
 }
 
-/* banner */
-
-
-
-
-#cor {
-    color: #fcda73;
-    font-size: 60px;
-}
-
-.fundo {
-    background-color: #007592;
-}
-
-#tam {
-    font-size: 50px;
-    color: #fcda73;
-}
-
-.caracter {
-    font-size: 25px;
-    text-align: justify;
-    padding: 5px;
-}
-
-#botao {
-    background-color: #0f4c81;
-}
-
-.but {
-    padding: 30px;
-}
 
 /* FAQ */
 
