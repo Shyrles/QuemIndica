@@ -29,7 +29,7 @@
                     <a href="https://wa.me/5511900000000" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
                 </div>
         </div>
-    </div>
+
 
     </footer>
 </div>
