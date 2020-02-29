@@ -25,7 +25,7 @@
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="feed.php">Feed</a>
-                    <a class="dropdown-item" href="servicos">Serviços</a>
+                    <a class="dropdown-item" href="servicos.php">Serviços</a>
                     <a class="dropdown-item" href="minha_conta.php">Meu Perfil</a>
                     <a class="dropdown-item" href="faq.php">FAQ</a>
                     <a class="dropdown-item" href="sobre.php">Sobre nós</a>
