@@ -15,7 +15,7 @@
 
 <body>
     
-    <?= require_once ("header_log.php"); ?>
+    <?php require_once ("header_log.php"); ?>
 
     <section class="banner_cinza">
 
@@ -163,7 +163,7 @@
         </div>
     </section>
 
-<?= require_once ("footer.php");?>
+<?php require_once ("footer.php");?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

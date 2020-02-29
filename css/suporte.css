@@ -1,0 +1,112 @@
+* {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    width: 560px;
+    height: 90vh;
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 50px 80px;
+    margin-top: 5px;
+}
+
+.nome {
+    float: left;
+    margin: 1px;
+}
+
+.sobrenome {
+    float: right;
+    margin: 1px;
+}
+
+.email {
+    clear: both;
+    float: left;
+    margin: 1px;
+
+}
+
+.telefone {
+    float: right;
+    margin: 1px;
+}
+
+.mensagem {
+    display: block;
+    clear: both;
+    float: left;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 6px -5px #666666, inset 0px 4px 6px -5px #000000;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+
+button {
+    float: left;
+    clear: both;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: #0f4c81;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 6px -5px #666666,
+        inset 0px 4px 6px -5px #000000;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    outline: 0;
+    /*remove borda azul */
+}
+
+textarea {
+    border: none;
+    resize: none;
+    outline: 0;
+}
+
+nav {
+    padding: 30px;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #414040;
+}
+
+a:hover {
+    color: #d64e1c;
+}
+
+div ::placeholder {
+    /* color: #5f5f5f; */
+}
+
+input:hover,
+textarea:hover {
+    background-color: #e0e0e0;
+}
