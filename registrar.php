@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
@@ -81,7 +82,7 @@
                  <div>
                      <label for="termos"><input type="checkbox" name="termos" id="termos" value="termod">Aceita os termos e condições</label>
                  </div>
-     
+                 <button type="submit" class="btn btn-dark"><a href="feed.php">Submit</a></button>
         </span>
         
         
@@ -117,42 +118,7 @@
 
 
     </footer> -->
-    <footer>
-        <div class="rodape">
-        <!-- esquerda -->
-        
-        <div class="container d-flex">
-
-            <ul class="nav flex-inline">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Copyright © 2020</a>
-                  </li>
-
-            </ul>
-       
-      <!-- direita -->
-        <ul class="flex-row ml-md-auto d-none d-md-flex">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ajuda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Termos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Dados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Cookies</a>
-            </li>       
-                      
-        </ul>
-
-        </div>
-       
-      </footer>
+<?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

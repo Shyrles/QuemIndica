@@ -11,7 +11,7 @@
       <!-- Botões direita -->
         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
             <li class="nav-item">
-              <a class="nav-link active" href="#"><button type="button" class="btn btn-light">Registrar</button></a>
+              <a class="nav-link active" href="registrar.php"><button type="button" class="btn btn-light">Registrar</button></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="feed.php"><button type="button" class="btn btn-light">Entrar</button></a>

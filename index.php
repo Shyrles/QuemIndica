@@ -64,7 +64,7 @@
                 </div>
                 </div>
                 <div class="col-auto">
-                <button type="submit" class="btn btn-info mb-2 btn-azul">Cadastrar</button>
+                <button type="submit" class="btn btn-info mb-2 btn-azul"><a href="registrar.php">Cadastrar</a></button>
                 </div>
             </div>
         </form>

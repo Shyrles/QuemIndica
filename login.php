@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
@@ -24,7 +25,7 @@
         </div>
     </section>
 
-    <section class="banner_conteudo">
+    <!-- <section class="banner_conteudo">
         <div class="container">
            
         <span class="text-justify" id="login">
@@ -58,7 +59,23 @@
 
         
         </div>
-    </section>
+    </section> -->
+    <form class="container" id="login">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-dark"><a href="feed.php">Submit</a></button>
+</form>
 
 <!-- 
     <footer>
@@ -89,42 +106,7 @@
 
 
     </footer> -->
-    <footer>
-        <div class="rodape">
-        <!-- esquerda -->
-        
-        <div class="container d-flex">
-
-            <ul class="nav flex-inline">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Copyright © 2020</a>
-                  </li>
-
-            </ul>
-       
-      <!-- direita -->
-        <ul class="flex-row ml-md-auto d-none d-md-flex">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ajuda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Termos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Dados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Política de Cookies</a>
-            </li>       
-                      
-        </ul>
-
-        </div>
-       
-      </footer>
+    <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -24,12 +24,11 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Minhas Indicações</a>
-                    <a class="dropdown-item" href="#">Chat</a>
-                    <a class="dropdown-item" href="#">Notificações</a>
-                    <a class="dropdown-item" href="#">Favoritos</a>
+                    <a class="dropdown-item" href="feed.php">Feed</a>
+                    <a class="dropdown-item" href="servicos">Serviços</a>
                     <a class="dropdown-item" href="minha_conta.php">Meu Perfil</a>
-                    <a class="dropdown-item" href="#">Meu Cadastro</a>
+                    <a class="dropdown-item" href="faq.php">FAQ</a>
+                    <a class="dropdown-item" href="sobre.php">Sobre nós</a>
                     <a class="dropdown-item" href="index.php">Sair</a>          
                 </div>
             </div>
