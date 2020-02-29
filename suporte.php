@@ -2,7 +2,7 @@
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
-            <title>Suporte</title>
+            <title>Suporte*</title>
             <link rel="stylesheet" href="css/suporte.css">
             <link rel="shortcut icon" href="imagens/logo-quem-indica.png" type="image/x-icon">
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
