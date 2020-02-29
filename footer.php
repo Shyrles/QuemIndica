@@ -1,4 +1,6 @@
-<footer class="page-footer footer">
+
+<div>
+    <footer class="page-footer footer">
 
         <div class="container text-center text-md-left">
             <div class="row">
@@ -29,7 +31,7 @@
                     <a href="https://wa.me/5511900000000" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
                 </div>
         </div>
-
+        <p>Quem Indica &copy; <?php echo date("Y"); ?> - Todos os direitos reservados</p>
 
     </footer>
 </div>

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
@@ -126,7 +127,35 @@
 
     </section>
 
+    <!-- <section class="section_5">
+            <div class="container">
+                    <div class="row colunasfooter">
+                      <div class="col">
+                            <h5 class="footertext"><strong>location</strong></h5>
+                            <p class="footertext">2515, John Daniel Drive Clark, MO 65243</p>
+                      </div>
+                      <div class="col">
+                            <h5 class="footertext"><strong>around the web</strong></h5>
+                            <div class="container socialmedias">
+                                    <a href="#" class="icons"><img src="facebook.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="twitter.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="linkedin.png" alt=""></a>
+                                    <a href="#" class="icons"><img src="instagram.png" alt=""></a>
+                            </div>
+                      </div>
+                      <div class="col">
+                            <h5 class="footertext"><strong>about freelancer</strong></h5>
+                            <p class="footertext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
 
+    </section>
+
+    <footer>
+        <p>Copyright - Bootstrap</p>
+
+    </footer> -->
 <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->

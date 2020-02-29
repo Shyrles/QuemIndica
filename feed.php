@@ -6,6 +6,8 @@
     <title>Feed - Quem Indica</title>
 
     <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
@@ -17,34 +19,12 @@
 <body>
 
 
-<div class="grid-container">
+
     <!-- HEADER -->
 
-    <header class="header">
-                <div id="logo">
-                    <img src="imagens/logo-quem-indica.png" class="d-inline-block align-top isotipo" alt="Logo Quem Indica">
-                    <a class="navbar-brand marca-nome" href="#">Quem Indica</a> 
-                </div>
-
-                
-
-                <div class="menu">
-                    <nav class="navbar navbar-expand-lg">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Sobre Nós</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>   
-    </header>
-
+    <?php require_once ("header_log.php"); ?>
+    
+    <div class="grid-container">
 <!-- ASIDE ESQUERDO-->
 
     <aside class="left">
@@ -211,12 +191,12 @@
                 </div>  
         </main>
     
-
+</div>
             <?php require_once ("footer.php");?>
 
 
     
-</div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
