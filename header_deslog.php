@@ -14,7 +14,7 @@
               <a class="nav-link active" href="#"><button type="button" class="btn btn-light">Registrar</button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><button type="button" class="btn btn-light">Entrar</button></a>
+              <a class="nav-link" href="feed.php"><button type="button" class="btn btn-light">Entrar</button></a>
             </li>
            
         </ul>

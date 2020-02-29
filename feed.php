@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/feed.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/minhaConta.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
@@ -22,7 +23,7 @@
 
     <!-- HEADER -->
 
-    <?php require_once ("header_log.php"); ?>
+    <?php require_once ("header_minhaConta.php"); ?>
     
     <div class="grid-container">
 <!-- ASIDE ESQUERDO-->
@@ -35,12 +36,12 @@
             <div class="row">
                 <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-feed-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-feed" aria-selected="true">Feed</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-profile" aria-selected="false">Perfil</a>
+                <a class="nav-link active" id="v-pills-feed-tab" data-toggle="pill" href="feed.php" role="tab" aria-controls="v-pills-feed" aria-selected="true">Feed</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="minha_conta.php" role="tab" aria-controls="v-pills-profile" aria-selected="false">Perfil</a>
                 <a class="nav-link" id="v-pills-amigos-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-amigos" aria-selected="false">Amigos</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mensagens</a>
                 <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-settings" aria-selected="false">Configurações</a>
-                <a class="nav-link" id="v-pills-indicacoes-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-indicacoes" aria-selected="false">Indicações</a>
+                <a class="nav-link" id="v-pills-indicacoes-tab" data-toggle="pill" href="servicos.php" role="tab" aria-controls="v-pills-indicacoes" aria-selected="false">Serviços</a>
                 <a class="nav-link" id="v-pills-parceiros-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-parceiros" aria-selected="false">Parceiros</a>
                 </div>
                 </div>

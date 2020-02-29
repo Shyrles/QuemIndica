@@ -28,9 +28,9 @@
                     <a class="dropdown-item" href="#">Chat</a>
                     <a class="dropdown-item" href="#">Notificações</a>
                     <a class="dropdown-item" href="#">Favoritos</a>
-                    <a class="dropdown-item" href="#">Meu Perfil</a>
+                    <a class="dropdown-item" href="minha_conta.php">Meu Perfil</a>
                     <a class="dropdown-item" href="#">Meu Cadastro</a>
-                    <a class="dropdown-item" href="#">Sair</a>          
+                    <a class="dropdown-item" href="index.php">Sair</a>          
                 </div>
             </div>
      
