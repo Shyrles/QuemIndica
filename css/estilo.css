@@ -18,6 +18,9 @@ header {
     height: 60px;
 }
 
+.container-fluid {
+    width: 100%;
+}
 
 /* banner index topo */
 

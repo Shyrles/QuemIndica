@@ -16,10 +16,10 @@
 
 <body>
     <?php require_once ("header_deslog.php"); ?>
-
+    
     
     <section class="banner_top">
-           
+    <div class="container-fluid">
             <div class="row">
 
                 <div class="col-md-6 d-inline-block">
@@ -42,11 +42,11 @@
                     </div>
                 </div>
             </div>
-
+    </div>
     </section>
 
     <section class="banner_cadastro">     
-                    
+    <div class="container-fluid">      
         <div class="d-flex justify-content-center">
         <form class="alinha_form">
             <div class="form-row align-items-center">
@@ -69,12 +69,12 @@
             </div>
         </form>
         </div>
-
+    </div>
     </section>
 
     <section class="banner_middle">
         
-            
+    <div class="container-fluid">
         
             <div class="row">
 
@@ -101,11 +101,11 @@
                     
                 </div>
             </div>
-
+    </div>
     </section>
 
     <section class="banner_team">
-           
+    <div class="container-fluid">
             <div class="row">
 
                 <div class="col-md-6 d-inline-block">
@@ -124,9 +124,9 @@
                     </div>
                 </div>
             </div>
-
+            </div>
     </section>
-
+    
     <!-- <section class="section_5">
             <div class="container">
                     <div class="row colunasfooter">
