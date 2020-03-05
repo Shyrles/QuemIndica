@@ -21,13 +21,11 @@
 }
 
 #btn_qi a {
-
     color: #fcda73;
     font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 #cor {
     color: #fcda73;
@@ -49,11 +47,11 @@
     padding: 5px;
 }
 
-
 .margens_banner {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 
 /* banner index meio */
 
@@ -78,6 +76,7 @@
     height: 60vh;
 }
 
+
 /* banner cadastro index */
 
 .banner_cadastro {
@@ -96,6 +95,7 @@
     background: #00415e;
 }
 
+
 /* banner index team */
 
 .banner_team {
@@ -110,7 +110,6 @@
     margin-left: 50px;
     margin-top: 0;
     height: 78vh;
-
 }
 
 #logo_banner {
@@ -120,4 +119,3 @@
 #margem_texto_b {
     margin-top: 30px;
 }
-
