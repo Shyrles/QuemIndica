@@ -16,7 +16,7 @@
 
 <body>
     
-    <?= require_once ("header_deslog.php"); ?>
+    <?php require_once ("header_deslog.php"); ?>
 
     <section class="banner_azul">
         <div class="container text-center">
@@ -30,7 +30,7 @@
            
         <span class="text-justify" id="registrar">
 
-                 <form action="registro.php">
+                 <form action="registro.php" method="POST">
                     <div id="nome"> <br> <br>
                             <label for="nome" >Nome</label><br>
                             <input type="text" name="nome" size="50px" id="nome"  placeholder="Seu nome">
@@ -83,6 +83,7 @@
                      <label for="termos"><input type="checkbox" name="termos" id="termos" value="termod">Aceita os termos e condições</label>
                  </div>
                  <button type="submit" class="btn btn-dark"><a href="feed.php">Submit</a></button>
+                </form>
         </span>
         
         

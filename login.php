@@ -16,7 +16,7 @@
 
 <body>
     
-    <?= require_once ("header_deslog.php"); ?>
+    <?php require_once ("header_deslog.php"); ?>
 
     <section class="banner_azul">
         <div class="container text-center">
