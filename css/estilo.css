@@ -163,8 +163,6 @@ footer {
 }
 
 .footer {
-    grid-area: footer;
-    padding: 10px;
     background-color: #333;
     color: #fff;
     font-size: 0.8em;
@@ -205,8 +203,6 @@ footer {
 .copyright {
     color: #fff;
     background-color: #666;
-}
-
-#login {
-    padding: 150px;
+    text-align: center;
+    width: 100%;
 }

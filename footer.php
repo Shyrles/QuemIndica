@@ -2,7 +2,7 @@
 <div>
     <footer class="page-footer text-center footer">
 
-        <div class="container  text-md-left">
+        <div class="container-fluid text-md-left ">
             <div class="row">
 
                 <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
@@ -31,8 +31,8 @@
                     <a href="https://wa.me/5511900000000" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
                 </div>
         </div>
-        <p class= "text-center copyright">Quem Indica &copy; <?php echo date("Y"); ?> - Todos os direitos reservados</p>
+         <p class= "container-fluid  copyright">Quem Indica &copy; <?php echo date("Y"); ?> - Todos os direitos reservados</p> 
 
     </footer>
+    
 </div>
-            
