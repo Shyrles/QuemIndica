@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <title>QUEM INDICA *</title>
+    <title>QUEM INDICA</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,45 +10,43 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
 <body>
     <?php require_once ("header_deslog.php"); ?>
-
     
-    <section class="banner_top">
-           
-            <div class="row">
+    
+    <section class="d-flex banner_top">
+    <div class="container-fluid d-flex align-content-around flex-wrap">
+            <div class="row margens_banner">
 
-                <div class="col-md-6 d-inline-block">
+                <div class="col d-inline-block">
               
                     <img src="imagens/services.png" class="service" alt="">
                 </div>
 
-                <div class="col-md-6 d-inline text-center">
-                    <div class="but text-justify">
+                <div class="col d-block align-self-center text-center ml-5">
+                    <div class="text-center">
                     
-                        <h2 class="text-center" id="margem_texto"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h2>
+                        <h4 class="text-center"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h4>
                         <br>
-                        <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                        <p class="texto_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
                             Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
                             aperiam autem!</p>
-                        <p class="texto_home">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
-                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
-                            aperiam autem!</p>
+
 
                     </div>
                 </div>
             </div>
-
+    </div>
     </section>
 
-    <section class="banner_cadastro">     
-                    
-        <div class="d-flex justify-content-center">
-        <form class="alinha_form">
+    <section class="d-flex banner_cadastro">     
+    <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      
+        <div class="d-flex">
+        <form class="d-inline-block">
             <div class="form-row align-items-center">
                 <div class="col-auto">
                 <label class="sr-only" for="inlineFormInput">Nome</label>
@@ -69,93 +67,64 @@
             </div>
         </form>
         </div>
-
+    </div>
     </section>
 
-    <section class="banner_middle">
+    <section class="d-flex banner_middle">
         
-            
+    <div class="container-fluid d-flex align-content-around flex-wrap">
         
-            <div class="row">
+            <div class="row margens_banner">
 
-                <div class="col-md-6 d-inline-block">
-                <div class="but text-justify">
+                <div class="col d-block align-self-center text-center mr-5">
+                <div class="text-center">
                     
-                        <h3 class="text-center" id="margem_texto"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h3>
+                        <h4 class="text-center"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h4>
                         <br>
-                        <p class="texto_meio">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                        <p class="texto_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
                             Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
                             aperiam autem!</p>
-                        <p class="texto_meio">&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
-                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
-                            aperiam autem!</p>
+
 
                     </div>
               
                     
                 </div>
 
-                <div class="col-md-6 d-inline text-center">
+                <div class="col d-inline-block">
 
                 <img src="imagens/rede_social.png" class="img_rede_social" alt="">
                     
                 </div>
             </div>
-
+    </div>
     </section>
 
-    <section class="banner_team">
-           
-            <div class="row">
+    <section class="d-flex banner_team">
 
-                <div class="col-md-6 d-inline-block">
+    <div class="container-fluid d-flex align-content-around flex-wrap">
+            <div class="row margens_banner">
+
+                <div class="col d-inline-block">
               
                     <img src="imagens/team.png" class="team" alt="">
                 </div>
 
-                <div class="col-md-6 d-inline text-center">
-                    <div class="but text-justify">
+                <div class="col d-block align-self-center text-center mr-5">
+                    
                     
                         <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
                         <br>
                         <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt="">
                         
                         <h3 class="text-center" id="margem_texto_b"><strong>E por todos!</strong></h3>
-                    </div>
+                 
                 </div>
             </div>
-
+            </div>
     </section>
+    
 
-    <!-- <section class="section_5">
-            <div class="container">
-                    <div class="row colunasfooter">
-                      <div class="col">
-                            <h5 class="footertext"><strong>location</strong></h5>
-                            <p class="footertext">2515, John Daniel Drive Clark, MO 65243</p>
-                      </div>
-                      <div class="col">
-                            <h5 class="footertext"><strong>around the web</strong></h5>
-                            <div class="container socialmedias">
-                                    <a href="#" class="icons"><img src="facebook.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="twitter.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="linkedin.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="instagram.png" alt=""></a>
-                            </div>
-                      </div>
-                      <div class="col">
-                            <h5 class="footertext"><strong>about freelancer</strong></h5>
-                            <p class="footertext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                    </div>
-                </div>
-
-    </section>
-
-    <footer>
-        <p>Copyright - Bootstrap</p>
-
-    </footer> -->
 <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->

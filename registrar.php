@@ -10,13 +10,13 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/footer.css">
+
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
 <body>
     
-    <?= require_once ("header_deslog.php"); ?>
+    <?php require_once ("header_deslog.php"); ?>
 
     <section class="banner_azul">
         <div class="container text-center">
@@ -30,10 +30,10 @@
            
         <span class="text-justify" id="registrar">
 
-                 <form action="registro.php">
+                 <form action="registro.php" method="POST">
                     <div id="nome"> <br> <br>
                             <label for="nome" >Nome</label><br>
-                            <input type="text" name="nome" size="50px" id="nome"  placeholder="Seu nome">
+                            <input class="radius" type="text" name="nome" size="50px" id="nome"  placeholder="Seu nome">
                           
                             <p class="obrigatorio">Obrigatório</p>
                           <br>  
@@ -41,7 +41,7 @@
                     
                     <div id="email">
                         <label for="email" >Email</label><br>
-                        <input type="email" name="email" size="50px" id="email"  placeholder="email@email.com">
+                        <input  class="radius" type="email" name="email" size="50px" id="email"  placeholder="email@email.com">
                      
                         <p class="obrigatorio">Obrigatório</p>
                           <br>               
@@ -50,7 +50,7 @@
 
                   <div id="senha">
                      <label for="senha">Senha</label><br>
-                     <input type="password" name="senha" size="50px" id="senha" placeholder="senha">
+                     <input class="radius" type="password" name="senha" size="50px" id="senha" placeholder="senha">
                      <br>
                      <p class="obrigatorio">Obrigatório</p>
                      <br>
@@ -77,12 +77,13 @@
 
              
                  <label for="comentarios" id="comentarios" name="comentarios">Comentários </label> <br>
-                 <textarea name="comentarios" id="" cols="50" rows="5"></textarea>
+                 <textarea class="radius" name="comentarios" id="" cols="50" rows="5"></textarea>
 
                  <div>
                      <label for="termos"><input type="checkbox" name="termos" id="termos" value="termod">Aceita os termos e condições</label>
                  </div>
                  <button type="submit" class="btn btn-dark"><a href="feed.php">Submit</a></button>
+                </form>
         </span>
         
         
