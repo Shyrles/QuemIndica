@@ -17,7 +17,7 @@
 
 <body>
     
-    <?= require_once ("header_minhaConta.php"); ?>
+    <?php require_once ("header_minhaConta.php"); ?>
 
     <div class="container" id="bannerPublicacoes">
         <div class="row">

@@ -16,7 +16,7 @@
 
 <body>
     
-    <?= require_once ("header_minhaConta.php"); ?>
+    <?php require_once ("header_minhaConta.php"); ?>
 
     <section class="banner_minhaConta"> 
         <img class="imagemUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do Usuário">
