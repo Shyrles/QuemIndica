@@ -43,10 +43,10 @@
     </div>
     </section>
 
-    <section class="banner_cadastro">     
-    <div class="container-fluid">      
-        <div class="d-flex justify-content-center">
-        <form class="alinha_form">
+    <section class="d-flex banner_cadastro">     
+    <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      
+        <div class="d-flex">
+        <form class="d-inline-block">
             <div class="form-row align-items-center">
                 <div class="col-auto">
                 <label class="sr-only" for="inlineFormInput">Nome</label>
@@ -124,35 +124,7 @@
             </div>
     </section>
     
-    <!-- <section class="section_5">
-            <div class="container">
-                    <div class="row colunasfooter">
-                      <div class="col">
-                            <h5 class="footertext"><strong>location</strong></h5>
-                            <p class="footertext">2515, John Daniel Drive Clark, MO 65243</p>
-                      </div>
-                      <div class="col">
-                            <h5 class="footertext"><strong>around the web</strong></h5>
-                            <div class="container socialmedias">
-                                    <a href="#" class="icons"><img src="facebook.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="twitter.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="linkedin.png" alt=""></a>
-                                    <a href="#" class="icons"><img src="instagram.png" alt=""></a>
-                            </div>
-                      </div>
-                      <div class="col">
-                            <h5 class="footertext"><strong>about freelancer</strong></h5>
-                            <p class="footertext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                    </div>
-                </div>
 
-    </section>
-
-    <footer>
-        <p>Copyright - Bootstrap</p>
-
-    </footer> -->
 <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
