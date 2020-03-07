@@ -176,6 +176,20 @@ span#sobre h4 {
     border-radius: 10px;
 }
 
+.padrao {
+    background-color: #306d5c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.padrao a {
+    background-color: #306d5c;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
 
 /* SECTION FOOTER */
 

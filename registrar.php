@@ -82,7 +82,7 @@
                  <div>
                      <label for="termos"><input type="checkbox" name="termos" id="termos" value="termod">Aceita os termos e condições</label>
                  </div>
-                 <button type="submit" class="btn btn-dark"><a href="feed.php">Submit</a></button>
+                 <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Enviar</a></button>
                 </form>
         </span>
         
