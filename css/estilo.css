@@ -14,12 +14,18 @@ header {
     background-color: #007592;
 }
 
+
+/* HEADER_DESLOG */
+
 #btn_qi a {
     color: #fcda73;
     font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+/* SOMENTE ESSA ID ACIMA */
 
 .nav_barra {
     height: 60px;

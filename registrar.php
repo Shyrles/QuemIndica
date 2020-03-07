@@ -33,7 +33,7 @@
                  <form action="registro.php" method="POST">
                     <div id="nome"> <br> <br>
                             <label for="nome" >Nome</label><br>
-                            <input class="radius" type="text" name="nome" size="50px" id="nome"  placeholder="Seu nome">
+                            <input class="radius" type="text" name="nome" size="50px" id="nome" required>
                           
                             <p class="obrigatorio">Obrigatório</p>
                           <br>  
@@ -41,7 +41,7 @@
                     
                     <div id="email">
                         <label for="email" >Email</label><br>
-                        <input  class="radius" type="email" name="email" size="50px" id="email"  placeholder="email@email.com">
+                        <input  class="radius" type="email" name="email" size="50px" id="email" required>
                      
                         <p class="obrigatorio">Obrigatório</p>
                           <br>               
@@ -50,7 +50,7 @@
 
                   <div id="senha">
                      <label for="senha">Senha</label><br>
-                     <input class="radius" type="password" name="senha" size="50px" id="senha" placeholder="senha">
+                     <input class="radius" type="password" name="senha" size="50px" id="senha" required>
                      <br>
                      <p class="obrigatorio">Obrigatório</p>
                      <br>
