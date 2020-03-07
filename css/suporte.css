@@ -38,7 +38,6 @@ h1 {
     clear: both;
     float: left;
     margin: 1px;
-
 }
 
 .telefone {
@@ -73,8 +72,7 @@ input {
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 4px 6px -5px #666666,
-        inset 0px 4px 6px -5px #000000;
+    box-shadow: 0 4px 6px -5px #666666, inset 0px 4px 6px -5px #000000;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     outline: 0;
     /*remove borda azul */
@@ -102,11 +100,9 @@ a:hover {
     color: #d64e1c;
 }
 
-div ::placeholder {
-    /* color: #5f5f5f; */
-}
 
-input:hover,
-textarea:hover {
-    background-color: #e0e0e0;
-}
+/*
+
+div ::placeholder {
+ color: #5f5f5f; 
+} */

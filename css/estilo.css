@@ -172,6 +172,10 @@ span#sobre h4 {
     color: red;
 }
 
+.radius {
+    border-radius: 10px;
+}
+
 
 /* SECTION FOOTER */
 
