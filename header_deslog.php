@@ -1,4 +1,4 @@
-<header class="container-fluid">     
+<header class="container-fluid fixed-top">     
         
 <nav class="navbar navbar-expand-lg" id="btn_qi">
   <a class="navbar-brand " href="#">
