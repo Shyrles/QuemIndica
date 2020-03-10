@@ -1,15 +1,19 @@
-<header class="navbar navbar-expand flex-column flex-md-row bd-navbar fixed-top fundo">
+<header class="container-fluid">     
+        
+<nav class="navbar navbar-expand-lg" id="btn_qi">
+  <a class="navbar-brand " href="#">
+    <img src="imagens/logo_icon.svg" width="50" height="50" alt="">
+   <strong>Quem Indica</strong> 
+  </a>
 
-        <!-- Logo esquerda -->
-    <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Quem Indica"><img src="imagens/logo_icon.svg" width="50" height="50" 
-            class="d-inline-block align-top" alt=""></a>
+      <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"data-target="#navbarsite">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+        
+        <div class= "collapse navbar-collapse" id="navbarsite">  
       
-      <div id="btn_qi">
-       <a href="#"><strong>Quem Indica</strong></a>
-      </div>
-           
-      <!-- Botões direita -->
-        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link active" href="registrar.php"><button type="button" class="btn btn-light">Registrar</button></a>
             </li>
@@ -19,8 +23,8 @@
            
         </ul>
             
-           
+        </div>
         
-
+</nav>
 
       </header>
