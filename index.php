@@ -80,56 +80,28 @@
                 </div>
             </div>
         </div>
-    <!-- <div class="container-fluid d-flex align-content-around flex-wrap">
-        
-            <div class="row margens_banner">
-
-                <div class="col d-block align-self-center text-center mr-5">
-                <div class="text-center">
-                    
-                        <h4 class="text-center"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h4>
-                        <br>
-                        <p class="texto_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
-                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
-                            aperiam autem!</p>
-
-
-                    </div>
-              
-                    
-                </div>
-
-                <div class="col d-inline-block">
-
-                <img src="imagens/rede_social.png" class="img_rede_social" alt="">
-                    
-                </div>
-            </div>
-    </div> -->
+    
     </section>
 
     <section class="d-flex banner_team">
 
-    <div class="container-fluid d-flex align-content-around flex-wrap">
-            <div class="row margens_banner">
-
-                <div class="col d-inline-block">
-              
-                    <img src="imagens/team.png" class="team" alt="">
+        <div class="container-fluid ">
+            <div class= "row">
+                <div class="col-6">
+                <img src="imagens/team.png" class="team" alt="">
                 </div>
-
-                <div class="col d-block align-self-center text-center mr-5">
-                    
-                    
-                        <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
+                <div class="col-6 d-flex align-items-center">
+                
+                <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
                         <br>
-                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt="">
+                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
                         
                         <h3 class="text-center" id="margem_texto_b"><strong>E por todos!</strong></h3>
-                 
                 </div>
+
             </div>
-            </div>
+        </div>
+
     </section>
     
 
