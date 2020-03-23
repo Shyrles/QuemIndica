@@ -19,28 +19,22 @@
     
     
     <section class="d-flex banner_top">
-    <div class="container-fluid d-flex align-content-around flex-wrap">
-            <div class="row margens_banner">
-
-                <div class="col d-inline-block">
-              
+        
+        <div class="container-fluid d-flex align-content-around flex-wrap margens_banner">
+            <div class= "row">
+                <div class="col-6">
                     <img src="imagens/services.png" class="service" alt="">
                 </div>
-
-                <div class="col d-block align-self-center text-center ml-5">
-                    <div class="text-center">
-                    
-                        <h4 class="text-center"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h4>
+                <div class="col-6">
+                    <h4 class="text-center"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h4>
                         <br>
-                        <p class="texto_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                        <p class="text-center texto_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
                             Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
                             aperiam autem!</p>
-
-
-                    </div>
                 </div>
             </div>
-    </div>
+        </div>
+
     </section>
 
     <section class="d-flex banner_cadastro">     
@@ -71,8 +65,22 @@
     </section>
 
     <section class="d-flex banner_middle">
-        
-    <div class="container-fluid d-flex align-content-around flex-wrap">
+
+         <div class="container-fluid d-flex align-content-around flex-wrap margens_banner">
+            <div class= "row">
+                <div class="col-6">
+                    <h4 class="text-center"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h4>
+                    <br>
+                        <p class="text-center texto_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
+                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
+                            aperiam autem!</p>                
+                </div>
+                <div class="col-6">
+                <img src="imagens/rede_social.png" class="img_rede_social" alt="">   
+                </div>
+            </div>
+        </div>
+    <!-- <div class="container-fluid d-flex align-content-around flex-wrap">
         
             <div class="row margens_banner">
 
@@ -97,7 +105,7 @@
                     
                 </div>
             </div>
-    </div>
+    </div> -->
     </section>
 
     <section class="d-flex banner_team">

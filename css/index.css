@@ -64,7 +64,7 @@
 }
 
 .img_rede_social {
-    height: 60vh;
+    width: 100%;
 }
 
 
@@ -96,8 +96,8 @@
 
 .team {
     margin-left: 50px;
-    margin-top: 5px;
-    height: 78vh;
+    margin-top: 0px;
+    width: 100%;
 }
 
 #logo_banner {
