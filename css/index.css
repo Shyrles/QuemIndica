@@ -1,3 +1,8 @@
+h4 {
+    font-size: 2em;
+    line-height: 36px;
+}
+
 /* banner index topo */
 
 .banner_top {
@@ -5,7 +10,7 @@
     background-color: #007592;
     color: #FCDA73;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 85vh;
 }
 
@@ -16,8 +21,8 @@
 .texto_home {
     color: #e5e5e5;
     padding: 5px;
-    font-size: 1em;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 36px;
 }
 
 #cor {
@@ -34,16 +39,7 @@
     color: #fcda73;
 }
 
-.caracter {
-    font-size: 25px;
-    text-align: justify;
-    padding: 5px;
-}
 
-.margens_banner {
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 
 /* banner index meio */
@@ -52,15 +48,15 @@
     background-color: #e5e5e5;
     color: #007592;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
 .texto_meio {
     color: #333333;
     padding: 5px;
-    font-size: 1em;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 36px;
 }
 
 .img_rede_social {
@@ -74,7 +70,7 @@
     background-color: #FCDA73;
     color: #e5e5e5;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
 
@@ -89,7 +85,7 @@
     background-color: #007592;
     color: #FCDA73;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin-top: 0px;
 }
@@ -101,7 +97,7 @@
 }
 
 #logo_banner {
-    height: 35vh;
+    width: 15vw;
 }
 
 #margem_texto_b {

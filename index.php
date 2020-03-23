@@ -20,17 +20,18 @@
     
     <section class="d-flex banner_top">
         
-        <div class="container-fluid d-flex align-content-around flex-wrap margens_banner">
+        <div class="container d-flex align-content-around flex-wrap ">
             <div class= "row">
                 <div class="col-6">
                     <img src="imagens/services.png" class="service" alt="">
                 </div>
                 <div class="col-6">
-                    <h4 class="text-center"><strong>Estamos prontos para ajudar você encontrar o profissional que precisa!</strong></h4>
+                    <h4 class="text-right">Procura um serviço?</h4>
                         <br>
-                        <p class="text-center texto_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
-                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
-                            aperiam autem!</p>
+                        <p class="text-right texto_home"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            In consequuntur vero assumenda veritatis ipsam asperiores. 
+                            Estamos prontos para ajudar você encontrar o profissional que precisa!    
+                        </p>
                 </div>
             </div>
         </div>
@@ -66,14 +67,13 @@
 
     <section class="d-flex banner_middle">
 
-         <div class="container-fluid d-flex align-content-around flex-wrap margens_banner">
+         <div class="container d-flex align-content-around flex-wrap">
             <div class= "row">
-                <div class="col-6">
-                    <h4 class="text-center"><strong>Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito com cultura e lazer!</strong></h4>
-                    <br>
-                        <p class="text-center texto_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo quam neque voluptatum quidem. 
-                            Eius ducimus exercitationem numquam cum, deserunt praesentium illum earum voluptates quas dolor facilis, ipsa 
-                            aperiam autem!</p>                
+                <div class="col-6 d-flex align-content-around flex-wrap">
+                    <h4 class="text-left">O que indica?</h4>
+                    
+                        <p class="text-left texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
+                            com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>                
                 </div>
                 <div class="col-6">
                 <img src="imagens/rede_social.png" class="img_rede_social" alt="">   
@@ -85,12 +85,12 @@
 
     <section class="d-flex banner_team">
 
-        <div class="container-fluid ">
+        <div class="container">
             <div class= "row">
                 <div class="col-6">
                 <img src="imagens/team.png" class="team" alt="">
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-6">
                 
                 <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
                         <br>
