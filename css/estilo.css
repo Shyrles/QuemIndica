@@ -74,6 +74,7 @@ header {
 .banner_azul {
     background-color: #007592;
     color: #FCDA73;
+    padding-bottom: 50px;
 }
 
 #quemindica {
@@ -266,4 +267,10 @@ footer {
     background-color: #666;
     text-align: center;
     width: 100%;
+}
+
+@media (max-width: 768px){
+    .banner_azul {
+        padding-bottom: 30px;
+    }
 }
