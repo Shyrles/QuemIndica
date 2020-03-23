@@ -30,9 +30,11 @@
                     <a href="https://www.instagram.com" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
                     <a href="https://wa.me/5511900000000" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
                 </div>
+                
+         <p class= "copyright">Quem Indica &copy; <?php echo date("Y"); ?> - Todos os direitos reservados</p> 
+         
         </div>
-         <p class= "container-fluid  copyright">Quem Indica &copy; <?php echo date("Y"); ?> - Todos os direitos reservados</p> 
-
+        
     </footer>
     
 </div>
