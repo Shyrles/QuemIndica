@@ -25,7 +25,7 @@
         </div>
     </section>
     <form class="form-signin">
-      <img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+     
       
       <label for="inputEmail" class="sr-only">Endereço de email</label>
       <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required="" autofocus=""><br>
@@ -36,11 +36,10 @@
           <input type="checkbox" value="remember-me"> Lembrar de mim
         </label>
       </div>
-      <button class="btn btn-lg  btn-block padrao" type="submit">Login</button>
+      <button class="btn btn-lg btn-block padrao" type="submit">Login</button>
       
     </form>  
-
-
+   
     <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->
