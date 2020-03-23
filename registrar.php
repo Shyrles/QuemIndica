@@ -28,7 +28,7 @@
     <section class="banner_conteudo">
         <div class="container">
            
-        <span class="text-justify" id="registrar">
+        <main class="text-justify" id="registrar">
 
                  <form action="registro.php" method="POST">
                     <div id="nome"> <br> <br>
@@ -84,7 +84,7 @@
                  </div>
                  <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Enviar</a></button>
                 </form>
-        </span>
+        </main>
         
         
         </div>
