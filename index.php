@@ -20,16 +20,15 @@
     
     <section class="d-flex banner_top">
         
-        <div class="container-fluid d-flex align-content-around flex-wrap ">
+        <div class="container d-flex align-content-around flex-wrap ">
             <div class= "row">
-                <div class="col-6">
+                <div class="col-xl-6 col-xs-12">
                     <img src="imagens/services.png" class="service" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-xs-12">
                     <h4 class="text-right">Procura um serviço?</h4>
-                        <br>
-                        <p class="text-right texto_home"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            In consequuntur vero assumenda veritatis ipsam asperiores. 
+                            <p class="text-right texto_home"> No Quem Indica você encontra o que precisa com indicações 
+                            feitas pelas pessoas que você mais confia...
                             Estamos prontos para ajudar você encontrar o profissional que precisa!    
                         </p>
                 </div>
@@ -67,15 +66,14 @@
 
     <section class="d-flex banner_middle">
 
-         <div class="container-fluid d-flex align-content-around flex-wrap">
+         <div class="container d-flex align-content-around flex-wrap">
             <div class= "row">
-                <div class="col-6 d-flex align-content-around flex-wrap">
-                    <h4 class="text-left">O que indica?</h4>
-                    
-                        <p class="text-left texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
+                <div class="col-xl-6 col-xs-12">
+                    <h4 class="text-left margem_texto">O que indica?</h4>                    
+                    <p class="text-left texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
                             com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>                
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-xs-12">
                 <img src="imagens/rede_social.png" class="img_rede_social" alt="">   
                 </div>
             </div>
@@ -83,27 +81,27 @@
     
     </section>
 
+
     <section class="d-flex banner_team">
 
-        <div class="container-fluid">
-            <div class= "row">
-                <div class="col-6">
-                <img src="imagens/team.png" class="team" alt="">
-                </div>
-                <div class="col-6">
+<div class="container">
+    <div class= "row">
+        <div class="col-xl-6 col-xs-12">
+        <img src="imagens/team.png" class="team" alt="">
+        </div>
+        <div class="col-xl-6 col-xs-12">
+        
+        <h3 class="text-center margem_texto"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
+                <br>
+                <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
                 
-                <h1 class="text-center" id="margem_texto_b"><strong>Quem Indica é uma rede social feita para todos!</strong></h1>
-                        <br>
-                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
-                        
-                        <h3 class="text-center" id="margem_texto_b"><strong>E por todos!</strong></h3>
-                </div>
-
-            </div>
+                <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>
         </div>
 
-    </section>
-    
+    </div>
+</div>
+
+</section>
 
 <?php require_once ("footer.php"); ?>
 
