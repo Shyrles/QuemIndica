@@ -108,5 +108,15 @@ p {
     height: 20vh;
 }
 
+@media (max-width: 1200px){
+    
+    h4 {
+        margin-top: 50px;
+        font-size: 1.7em;
+    }
 
-
+    p {
+        padding-bottom: 50px;
+        font-size: 1.1em;
+    }
+}

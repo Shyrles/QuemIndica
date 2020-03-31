@@ -20,14 +20,14 @@
     
     <section class="d-flex banner_top">
         
-        <div class="container d-flex align-content-around flex-wrap ">
+        <div class="container d-flex align-items-center ">
             <div class= "row">
                 <div class="col-xl-6 col-xs-12">
                     <img src="imagens/services.png" class="service" alt="">
                 </div>
                 <div class="col-xl-6 col-xs-12">
-                    <h4 class="text-right">Procura um serviço?</h4>
-                            <p class="text-right texto_home"> No Quem Indica você encontra o que precisa com indicações 
+                    <h4 class="text-center">Procura um serviço?</h4>
+                            <p class="text-center texto_home"> No Quem Indica você encontra o que precisa com indicações 
                             feitas pelas pessoas que você mais confia...
                             Estamos prontos para ajudar você encontrar o profissional que precisa!    
                         </p>
@@ -69,8 +69,8 @@
          <div class="container d-flex align-content-around flex-wrap">
             <div class= "row">
                 <div class="col-xl-6 col-xs-12">
-                    <h4 class="text-left margem_texto">O que indica?</h4>                    
-                    <p class="text-left texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
+                    <h4 class="text-center margem_texto">O que indica?</h4>                    
+                    <p class="text-center texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
                             com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>                
                 </div>
                 <div class="col-xl-6 col-xs-12">
