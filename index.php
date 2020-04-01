@@ -20,6 +20,24 @@
     
     <section class="d-flex banner_top">
         
+        <div class="container">
+                <div class="box">
+                    <img src="imagens/trabalhadores_lupa.png" class="service" alt="">
+
+                    <h4 class="text-center">Procura um serviço?</h4>
+                            <p class="text-center texto_home"> No Quem Indica você encontra o que precisa com indicações 
+                            feitas pelas pessoas que você mais confia...
+                            Estamos prontos para ajudar você encontrar o profissional que precisa!    
+                        </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- <section class="d-flex banner_top">
+        
         <div class="container d-flex align-items-center ">
             <div class= "row">
                 <div class="col-xl-6 col-xs-12">
@@ -35,7 +53,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <section class="d-flex banner_cadastro">     
     <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      

@@ -14,12 +14,16 @@ p {
 /* banner index topo */
 
 .banner_top {
-    margin-top: 50px;
+    padding-top: 50px;
     background-color: #007592;
     color: #FCDA73;
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
+}
+
+.box {
+    margin-top: 50px;
 }
 
 .service {
