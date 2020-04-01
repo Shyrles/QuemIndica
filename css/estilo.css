@@ -198,6 +198,19 @@ span#sobre h4 {
     text-decoration: none;
 }
 
+.form-signin1 {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.espaco {
+    padding: 20px;
+}
+
 
 /*LOGIN */
 
@@ -272,7 +285,7 @@ footer {
     margin-bottom: 0;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .banner_azul {
         padding-bottom: 30px;
     }

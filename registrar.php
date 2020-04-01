@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
@@ -24,101 +23,56 @@
         <h1><strong>Registrar</strong></h1>
         </div>
     </section>
-
-    <section class="banner_conteudo">
-        <div class="container">
            
-        <main class="text-justify" id="registrar">
 
-                 <form action="registro.php" method="POST">
-                    <div id="nome"> <br> <br>
-                            <label for="nome" >Nome</label><br>
-                            <input class="radius" type="text" name="nome" size="50px" id="nome" required>
-                          
-                            <p class="obrigatorio">Obrigatório</p>
-                          <br>  
-                    </div>
-                    
-                    <div id="email">
-                        <label for="email" >Email</label><br>
-                        <input  class="radius" type="email" name="email" size="50px" id="email" required>
-                     
-                        <p class="obrigatorio">Obrigatório</p>
-                          <br>               
-                    </div>   
-
-
-                  <div id="senha">
-                     <label for="senha">Senha</label><br>
-                     <input class="radius" type="password" name="senha" size="50px" id="senha" required>
-                     <br>
-                     <p class="obrigatorio">Obrigatório</p>
-                     <br>
-                  </div>
-               
-                  <div>
+                 <form class="form-signin1" action="registro.php" method="POST">
+                 <div class="form-group">
+                  <label for="nome">Nome</label>
+                    <input type="text" class=" radius form-control" id="nome" required>
+                    <p class="obrigatorio">Obrigatório</p>
+                 </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class=" radius form-control" id="email" required>
+                  <p class="obrigatorio">Obrigatório</p>
+                 </div>
+                 <div class="form-group">
+                  <label for="senha">Senha</label>
+                  <input type="password" class=" radius form-control" id="senha" required>
+                  <p class="obrigatorio">Obrigatório</p>
+                 </div>
+                
+                 
                     <label for="identifica">Como você se identifica?</label> <br>
 
-                    <div>
-                            <label for="masculino">
-                            <input type="radio" name="genero" id="masculino" value="masculino">masculino
-                            </label>
-
-                            <label for="feminino">
-                            <input type="radio" name="genero" id="feminino" value="feminino">
-                            Feminino</label>
-
-                            <label for="outro">
-                            <input type="radio" name="genero" id="outro" value="outro">
-                            Especificar outro</label>
+                    <div class="form-check form-check-inline">
+                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="masculino" value="opcao1">
+                       <label class="form-check-label" for="masculino">Masculino</label>
                     </div>
-      
+                    <div class="form-check form-check-inline">
+                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="feminino" value="opcao2">
+                       <label class="form-check-label" for="feminino">Feminino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="personalizado" value="opcao3" >
+                      <label class="form-check-label" for="personalizado">Personalizado</label>
+                    </div>
+                          
+                    <div class="espaco">
+                
+                       <label for="termos">
+                      <input type="checkbox" name="termos" id="termos" value="termos">Aceita os termos e condições</label>
+                   <div class="espaco">
+                      <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Registrar</a></button>
                   </div>
-
-             
-                 <label for="comentarios" id="comentarios" name="comentarios">Comentários </label> <br>
-                 <textarea class="radius" name="comentarios" id="" cols="50" rows="5"></textarea>
-
-                 <div>
-                     <label for="termos"><input type="checkbox" name="termos" id="termos" value="termod">Aceita os termos e condições</label>
-                 </div>
-                 <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Enviar</a></button>
                 </form>
-        </main>
         
         
-        </div>
-    </section>
-
-<!-- 
-    <footer>
-        <div class="rodape">
-            <div class="container d-flex">
-                <ul class="nav flex-inline">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Termos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Dados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Política de Cookies</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
+        
+   
 
 
-    </footer> -->
+    
 <?php require_once ("footer.php"); ?>
 
     <!-- Optional JavaScript -->

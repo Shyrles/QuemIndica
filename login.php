@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-   
     <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
 </head>
 
@@ -24,11 +23,11 @@
         <h1><strong >Bem-vindo(a) ao Quem Indica!</strong></h1>
         </div>
     </section>
-    <form class="form-signin">
+    <form class="form-signin" action="login.php" method="POST">
      
       
       <label for="inputEmail" class="sr-only">Endereço de email</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required="" autofocus=""><br>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required=""><br>
       <label for="inputPassword" class="sr-only">Senha</label>
       <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
       <div class="checkbox mb-3">
