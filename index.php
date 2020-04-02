@@ -24,8 +24,8 @@
                 <div class="box">
                     <img src="imagens/trabalhadores_lupa.png" class="service img-fluid" alt="">
 
-                    <h4 class="text-center">Procura um serviço?</h4>
-                            <p class="text-center texto_home"> No Quem Indica você encontra o que precisa com indicações 
+                    <h4 class="text-center font_h4">Procura um serviço?</h4>
+                            <p class="text-center texto_home font_p"> No Quem Indica você encontra o que precisa com indicações 
                             feitas pelas pessoas que você mais confia...
                             Estamos prontos para ajudar você encontrar o profissional que precisa!    
                         </p>
@@ -68,8 +68,8 @@
                 <img src="imagens/rede_social.png" class="img_rede_social img-fluid" alt="">
             </div>
             <div class="box_text">
-            <h4 class="text-center">O que indica?</h4>                    
-                    <p class="text-center texto_meio px-5">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
+            <h4 class="text-center font_h4">O que indica?</h4>                    
+                    <p class="text-center texto_meio font_p px-5">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
                             com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>
             </div>
         </div>
@@ -84,11 +84,11 @@
             </div>
 
                 <div class="box_text_right">                
-                <h3 class="text-center py-3"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
+                <h3 class="text-center font_h3 py-3"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
                         
                         <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt="">
                         
-                        <p class="text-center pt-1"><strong>E por todos!</strong></p>                
+                        <p class="text-center font_p pt-1"><strong>E por todos!</strong></p>                
                 </div>
 
         </div>
@@ -96,26 +96,6 @@
 
     </section>
     
-    <!-- <section class="d-flex banner_team">
-
-<div class="container">
-    <div class= "row">
-        <div class="col-xl-6 col-xs-12">
-        <img src="imagens/team.png" class="team" alt="">
-        </div>
-        <div class="col-xl-6 col-xs-12">
-        
-        <h3 class="text-center margem_texto"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
-                <br>
-                <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
-                
-                <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>
-        </div>
-
-    </div>
-</div>
-
-</section> -->
 
 <?php require_once ("footer.php"); ?>
 

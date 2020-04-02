@@ -1,13 +1,13 @@
-h4 {
+.font_h4 {
     font-size: 2em;
     line-height: 36px;
 }
 
-h3 {
+.font_h3 {
     font-size: 1.7em;
 }
 
-p {
+.font_p {
     font-size: 1.3em;
 }
 
@@ -118,12 +118,12 @@ p {
 
 @media (max-width: 1200px){
     
-    h4 {
+    .font_h4 {
         margin-top: 50px;
         font-size: 1.7em;
     }
 
-    p {
+    .font_p {
         padding-bottom: 50px;
         font-size: 1.1em;
     }
