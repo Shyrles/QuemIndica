@@ -18,193 +18,136 @@
 <body>
     
     <?php require_once ("header_minhaConta.php"); ?>
-
-    <div class="container" id="bannerPublicacoes">
-        <div class="row">
+    <div class="container">
+        <h1>Encontre um Serviço:</h1>
+    </div>
+   
+   <div class="container" >
         
-        <!--Terceira Coluna Amigos -->   
+        <div class="row">   
            <div class="col-sm">
-                <h5 class="mt-0"><strong>Serviços </strong></h5>
-               
-               <!--primeira linha -->   
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/carreto.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Faço Carretos</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/cuidador.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Vai viajar? Deixe seu pet em bons cuidados! Vamos passear muito, brincar e dar aquela relaxa no final do dia</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/eletricista.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Serviços Elétricos</p>
+  
+            <!--primeira linha -->   
+            <div class="media mb-3 mt-5 px-3" >  <!--botom topo -->   
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                <!--segunda linha --> 
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/montador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Montador de móveis em geral</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/pedreiro.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Preciso realizar aquela reforma em casa?s</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/pintor.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Pintor de Casa</p>
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                <!--terceira linha --> 
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/encanador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Seu cano furou? Me liga!</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/diarista.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Serviços domesticos</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/piscina.png" alt="Imagem de capa do card">
-                        <p class="card-text">Pricisando limpar sua piscina? Utilizo os melhores produtos para deixar sua piscina completamente limpa e higienizada. Me liga e agenda um dia para eu te visitar. Te aguardo!</p>
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                 <!--quarta linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/jardineiro.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Vamos arrumar o jardim?</p>  
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
+                </div>
+             </div>
 
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/limpador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Precisando limpar suas janelas? Me liga!</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/sofa.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Precisando limpar sua piscina? só uma limpeza de sofá profissional fará a higienização completa do seu sofá.</p>
+             <!--segunda linha --> 
+             <div class="media mb-3 mt-3 px-3" >
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                 <!--quinta linha --> 
-                               
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/carreto.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Faço Carretos</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/cuidador.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Vai viajar? Deixe seu pet em bons cuidados! Vamos passear muito, brincar e dar aquela relaxa no final do dia</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/eletricista.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Serviços Elétricos</p>
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                <!--sexta linha --> 
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/montador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Montador de móveis em geral</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/pedreiro.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Preciso realizar aquela reforma em casa?s</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/pintor.jpeg" alt="Imagem de capa do card">
-                        <p class="card-text">Pintor de Casa</p>
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
                 </div>
 
-                <!--setima linha --> 
-                <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/encanador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Seu cano furou? Me liga!</p>  
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
                     </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/diarista.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Serviços domesticos</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/piscina.png" alt="Imagem de capa do card">
-                        <p class="card-text">Pricisando limpar sua piscina? Utilizo os melhores produtos para deixar sua piscina completamente limpa e higienizada. Me liga e agenda um dia para eu te visitar. Te aguardo!</p>
-                    </div>
-                </div>
-
-                 <!--oitava linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/jardineiro.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Vamos arrumar o jardim?</p>  
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/limpador.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Precisando limpar suas janelas? Me liga!</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 25rem;">
-                        <img class="card-img-top" src="imagens/servicos/sofa.jpg" alt="Imagem de capa do card">
-                        <p class="card-text">Precisando limpar sua piscina? só uma limpeza de sofá profissional fará a higienização completa do seu sofá.</p>
-                    </div>
-                </div>
-
-
-
+                </div>     
             </div>
 
+             <!--terceira linha --> 
+             <div class="media mb-3 mt-3 px-3" >
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
+                    </div>
+                </div>
 
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
+                    </div>
+                </div>
 
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
+                    </div>
+                </div>
 
+                <div class="card ml-3" style="width: 15rem;">
+                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exeo card e fazer prrd.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
+                    </div>
+                </div>     
+            </div>
+              
 
-
-
-
-
-
-
-
-
-
-          
-            
         </div>
-    </div>
-
-
-
-   
-
+     </div>
+ </div>
 
 
     <?= require_once ("footer.php"); ?>

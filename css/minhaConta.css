@@ -20,7 +20,9 @@ header {
     height: 60px;
 }
 
-
+.container-fluid {
+    width: 100%;
+}
 
 /* banner index topo */
 
@@ -306,13 +308,6 @@ ul li a {
     border-radius: 50%;
 }
 
-#bannerPublicacoes {
-    background-color: #E2E2E7;
-    background-size: cover;
-    width: 100%;
-    padding-top: 2%;
-  
-}
 #imgHashtag{
     width: 25px;
 }
@@ -329,6 +324,15 @@ ul li a {
 
 /*CSS da pagina Servicos*/
 
+@media (max-width: 1200px){
+    
+    h4 {
+        margin-top: 50px;
+        font-size: 1.7em;
+    }
 
-
- 
+    p {
+        padding-bottom: 50px;
+        font-size: 1.1em;
+    }
+}
