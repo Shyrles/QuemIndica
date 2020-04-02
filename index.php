@@ -84,11 +84,11 @@
             </div>
 
                 <div class="box_text_right">                
-                <h3 class="text-center margem_texto"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
-                        <br>
-                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
+                <h3 class="text-center py-3"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
                         
-                        <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>                
+                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt="">
+                        
+                        <p class="text-center pt-1"><strong>E por todos!</strong></p>                
                 </div>
 
         </div>

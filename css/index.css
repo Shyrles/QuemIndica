@@ -101,7 +101,7 @@ p {
     width: 100%;
     margin-top: 0px;
     padding-bottom: 20px;
-    height: 70vh;
+    height: 95vh;
 }
 
 .team {
@@ -133,6 +133,10 @@ p {
 
 @media (min-width: 992px) {
     .box {
+        padding: 0 100px;
+    }
+
+    .box_img_left {
         padding: 0 100px;
     }
 
@@ -173,6 +177,7 @@ p {
         height: 70vh;
         margin: 0;
         overflow: hidden;
+        padding: 0;
     }
 
     .box_text_right {
@@ -185,8 +190,8 @@ p {
         height: 70vh;
     }
 
-
-
-
+    .banner_team {
+        height: 70vh;
+    }
 }
 
