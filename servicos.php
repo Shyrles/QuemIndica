@@ -17,137 +17,125 @@
 
 <body>
     
-    <?php require_once ("header_minhaConta.php"); ?>
-    <div class="container">
-        <h1>Encontre um Serviço:</h1>
-    </div>
+    <?php require_once ("header_deslog.php"); ?>
    
-   <div class="container" >
-        
-        <div class="row">   
-           <div class="col-sm">
-  
-            <!--primeira linha -->   
-            <div class="media mb-3 mt-5 px-3" >  <!--botom topo -->   
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
+   <div class="container mt-5 " > 
+        <div class="row justify-content-center pt-5 pb-2">  
+        <!--primeira linha -->  
+           <div class="col-md-3 col-12"> 
+                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
                         <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
                     </div>
-                </div>
+                </div> 
+            </div>
 
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
+            <div class="col-md-3 col-12">               
+                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+                     <div class="img-animation">
+                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                     </div>  
+                     <div class="card-body text-center">
+                         <h5 class="card-title">Título do card</h5>
+                         <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                         <a href="#" class="btn btn-info">Contratar</a>
+                     </div>
+                 </div> 
+             </div>
 
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
+            <div class="col-md-3 col-12">          
+                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
                         <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
                     </div>
                 </div>
              </div>
 
-             <!--segunda linha --> 
-             <div class="media mb-3 mt-3 px-3" >
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
+             <div class="col-md-3 col-12">   
+                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
                         <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
                     </div>
                 </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>     
-            </div>
-
-             <!--terceira linha --> 
-             <div class="media mb-3 mt-3 px-3" >
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top " id="cardes" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">11111 Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>
-
-                <div class="card ml-3" style="width: 15rem;">
-                    <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Um exeo card e fazer prrd.</p>
-                        <a href="#" class="btn btn-primary">Contratar</a>
-                    </div>
-                </div>     
-            </div>
-              
-
+             </div>
         </div>
-     </div>
- </div>
+        <!--segunda linha --> 
+        <div class="row justify-content-center mt-3 mb-3">  
+         
+           <div class="col-md-3 col-12"> 
+                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="col-md-3 col-12">               
+                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+                     <div class="img-animation">
+                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                     </div>  
+                     <div class="card-body text-center">
+                         <h5 class="card-title">Título do card</h5>
+                         <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                         <a href="#" class="btn btn-info">Contratar</a>
+                     </div>
+                 </div> 
+             </div>
+
+            <div class="col-md-3 col-12">          
+                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-md-3 col-12">   
+                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+                    <div class="img-animation">
+                        <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
+                    </div>  
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit sit maiores quo sapiente id deserunt nam, nostrum facere perspiciatis voluptatibus! Delectus esse quam iusto optio odio corrupti vero nobis!</p>
+                        <a href="#" class="btn btn-info">Contratar</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>
 
 
     <?= require_once ("footer.php"); ?>

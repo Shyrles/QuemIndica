@@ -324,15 +324,6 @@ ul li a {
 
 /*CSS da pagina Servicos*/
 
-@media (max-width: 1200px){
-    
-    h4 {
-        margin-top: 50px;
-        font-size: 1.7em;
-    }
 
-    p {
-        padding-bottom: 50px;
-        font-size: 1.1em;
-    }
-}
+
+
