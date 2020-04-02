@@ -57,34 +57,6 @@
     </div>
     </section>
 
-
-    <!-- <section class="d-flex banner_cadastro">     
-    <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      
-        <div class="d-flex">
-        <form class="d-inline-block">
-            <div class="form-row align-items-center">
-                <div class="col-auto">
-                <label class="sr-only" for="inlineFormInput">Nome</label>
-                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nome e sobrenome">
-                </div>
-                <div class="col-auto">
-                <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
-                <div class="input-group mb-2">
-                    <div class="input-group-prepend">
-                    <div class="input-group-text">@</div>
-                    </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="usuario">
-                </div>
-                </div>
-                <div class="col-auto">
-                <button type="submit" class="btn btn-info mb-2 btn-azul"><a href="registrar.php">Cadastrar</a></button>
-                </div>
-            </div>
-        </form>
-        </div>
-    </div>
-    </section> -->
-
     <section class="d-flex banner_middle">
 
         <div class="container">
