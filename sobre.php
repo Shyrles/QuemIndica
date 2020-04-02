@@ -27,9 +27,8 @@
 
     <section class="banner_conteudo">
         <div class="container">
-        <img src="imagens/nos.png" class="rounded float-right" id="grupo" alt="Grupo Quem Indica">
-        
-        <span class="text-justify" id="sobre">
+               
+        <span class="text-justfy" id="sobre">
         
         <p>&emsp;&emsp; Quem Indica é uma comunidade online especializada em Indicar serviços (freelancer) para trabalhos cotidianos e produtos. 
             Disponível neste website www.quemindica.com.
@@ -43,7 +42,7 @@
             elas apresentam algumas características em comum: o compartilhamento de informações e de interesses comuns entre os usuários, 
             e essa característica permite uma maior interação e mobilização social. 
         </p>
-        <p>&emsp;&emsp; Assim, este espaço virtual vem com a proposta de: <br>
+        <p> &emsp;&emsp;Assim, este espaço virtual vem com a proposta de: <br>
             &emsp;&emsp;Recomendações de serviços/produtos numa determinada localidade;<br>
             &emsp;&emsp;Adicionar fotos e avaliações do serviço que foi contratado;<br>
             &emsp;&emsp;E um Feed de notícias que tem o objetivo de engajamento dos usuários com a plataforma. 
@@ -52,8 +51,9 @@
 
         <h4 class="text-center"><strong>Quem Indica é uma plataforma perfeita para você!</strong></h4>
         </span>
-        
-
+        <div class="text-center">
+        <img src="imagens/nos.png" class="rounded img-fluid img_grupo" alt="Grupo Quem Indica">
+        </div>
         
         </div>
     </section>
