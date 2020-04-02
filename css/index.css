@@ -170,9 +170,19 @@ p {
     .box_img_left {
         float: left;
         width: 50%;
-        height: 95vh;
+        height: 70vh;
         margin: 0;
         overflow: hidden;
+    }
+
+    .box_text_right {
+        overflow: hidden;
+        float: right;
+        width: 50%;
+        height: 95vh;
+        margin: 0;
+        padding: 100px 0;
+        height: 70vh;
     }
 
 

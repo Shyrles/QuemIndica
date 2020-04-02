@@ -1,5 +1,5 @@
 
-<div>
+
     <footer class="page-footer text-center footer">
 
         <div class="container-fluid text-md-left ">
@@ -37,4 +37,3 @@
         
     </footer>
     
-</div>

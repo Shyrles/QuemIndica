@@ -80,19 +80,18 @@
 
         <div class="container">
             <div class= "text-center box_img_left">
-                
                 <img src="imagens/team.png" class="team" alt="">
             </div>
-                <div class="box-text">
-                
+
+                <div class="box_text_right">                
                 <h3 class="text-center margem_texto"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
                         <br>
                         <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
                         
-                        <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>
+                        <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>                
                 </div>
 
-            </div>
+        </div>
 
 
     </section>
