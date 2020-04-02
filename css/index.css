@@ -101,12 +101,13 @@ p {
     width: 100%;
     margin-top: 0px;
     padding-bottom: 20px;
+    height: 70vh;
 }
 
 .team {
 
     margin-top: 0px;
-    width: 50%;
+    width: 100%;
 }
 
 #logo_banner {
@@ -128,6 +129,16 @@ p {
     }
     
 
+}
+
+@media (min-width: 992px) {
+    .box {
+        padding: 0 100px;
+    }
+
+    .box h4 {
+        padding-top: 50px;
+    }    
 }
 
 @media (min-width: 1200px) {
@@ -153,6 +164,14 @@ p {
         height: 95vh;
         margin: 0;
         padding: 250px 0;
+        overflow: hidden;
+    }
+
+    .box_img_left {
+        float: left;
+        width: 50%;
+        height: 95vh;
+        margin: 0;
         overflow: hidden;
     }
 

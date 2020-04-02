@@ -76,26 +76,28 @@
     
     </section>
 
-
-    <!-- <section class="d-flex banner_middle">
-
-         <div class="container d-flex align-content-around flex-wrap">
-            <div class= "row">
-                <div class="col-xl-6 col-xs-12">
-                    <h4 class="text-center margem_texto">O que indica?</h4>                    
-                    <p class="text-center texto_meio">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
-                            com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>                
-                </div>
-                <div class="col-xl-6 col-xs-12">
-                <img src="imagens/rede_social.png" class="img_rede_social" alt="">   
-                </div>
-            </div>
-        </div>
-    
-    </section> -->
-
-
     <section class="d-flex banner_team">
+
+        <div class="container">
+            <div class= "text-center box_img_left">
+                
+                <img src="imagens/team.png" class="team" alt="">
+            </div>
+                <div class="box-text">
+                
+                <h3 class="text-center margem_texto"><strong>Quem Indica é uma rede social feita para todos!</strong></h3>
+                        <br>
+                        <img src="imagens/logo_icon.svg" id="logo_banner" class="rounded mx-auto d-block" alt=""><br>
+                        
+                        <p class="text-center" id="margem_texto_b"><strong>E por todos!</strong></p>
+                </div>
+
+            </div>
+
+
+    </section>
+    
+    <!-- <section class="d-flex banner_team">
 
 <div class="container">
     <div class= "row">
@@ -114,7 +116,7 @@
     </div>
 </div>
 
-</section>
+</section> -->
 
 <?php require_once ("footer.php"); ?>
 
