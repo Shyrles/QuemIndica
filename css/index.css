@@ -11,6 +11,11 @@
     font-size: 1.3em;
 }
 
+.btn-primary {
+    background-color: #007592;
+    border-color: #007592;
+}
+
 /* banner index topo */
 
 .banner_top {
@@ -195,3 +200,15 @@
     }
 }
 
+@media (max-width: 590px) {
+    .line_register {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 590px) {
+    .btn_hidden {
+        display: none;
+    }
+}
