@@ -22,38 +22,17 @@
         
         <div class="container">
                 <div class="box">
-                    <img src="imagens/trabalhadores_lupa.png" class="service" alt="">
+                    <img src="imagens/trabalhadores_lupa.png" class="service img-fluid" alt="">
 
                     <h4 class="text-center">Procura um serviço?</h4>
                             <p class="text-center texto_home"> No Quem Indica você encontra o que precisa com indicações 
                             feitas pelas pessoas que você mais confia...
                             Estamos prontos para ajudar você encontrar o profissional que precisa!    
                         </p>
-                </div>
             </div>
         </div>
 
     </section>
-
-
-    <!-- <section class="d-flex banner_top">
-        
-        <div class="container d-flex align-items-center ">
-            <div class= "row">
-                <div class="col-xl-6 col-xs-12">
-                    <img src="imagens/services.png" class="service" alt="">
-                </div>
-                <div class="col-xl-6 col-xs-12">
-                    <h4 class="text-center">Procura um serviço?</h4>
-                            <p class="text-center texto_home"> No Quem Indica você encontra o que precisa com indicações 
-                            feitas pelas pessoas que você mais confia...
-                            Estamos prontos para ajudar você encontrar o profissional que precisa!    
-                        </p>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
 
     <section class="d-flex banner_cadastro">     
     <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      
@@ -84,6 +63,22 @@
 
     <section class="d-flex banner_middle">
 
+        <div class="container">
+            <div class="text-center box_img">
+                <img src="imagens/rede_social.png" class="img_rede_social img-fluid" alt="">
+            </div>
+            <div class="box_text">
+            <h4 class="text-center">O que indica?</h4>                    
+                    <p class="text-center texto_meio px-5">Não só de serviços e produtos que vivemos... aqui seu encontro é perfeito 
+                            com cultura e lazer! Entre e descubra o que seus amigos estão vendo, ouvindo, lendo...</p>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <!-- <section class="d-flex banner_middle">
+
          <div class="container d-flex align-content-around flex-wrap">
             <div class= "row">
                 <div class="col-xl-6 col-xs-12">
@@ -97,7 +92,7 @@
             </div>
         </div>
     
-    </section>
+    </section> -->
 
 
     <section class="d-flex banner_team">

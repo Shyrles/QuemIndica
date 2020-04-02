@@ -23,7 +23,7 @@ p {
 }
 
 .box {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .service {
@@ -33,6 +33,7 @@ p {
 .texto_home {
     color: #e5e5e5;
     padding: 5px;
+    
 }
 
 #cor {
@@ -59,20 +60,20 @@ p {
     color: #007592;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
 }
 
 .texto_meio {
     color: #333333;
-    padding: 5px;
-}
-
-.margem_texto {
-    margin-top: 100px;
 }
 
 .img_rede_social {
-    width: 100%;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.box_text {
+    margin: 50px 0;
 }
 
 
@@ -105,12 +106,14 @@ p {
 .team {
 
     margin-top: 0px;
-    width: 100%;
+    width: 50%;
 }
 
 #logo_banner {
     height: 20vh;
 }
+
+
 
 @media (max-width: 1200px){
     
@@ -123,4 +126,38 @@ p {
         padding-bottom: 50px;
         font-size: 1.1em;
     }
+    
+
 }
+
+@media (min-width: 1200px) {
+    .img_rede_social {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+
+
+    .box_img {
+        float: right;
+        width: 50%;
+        height: 95vh;
+        margin: 0;
+        padding: 80px 0;
+        overflow: hidden;
+    }
+
+    .box_text {
+        float: left;
+        width: 50%;
+        height: 95vh;
+        margin: 0;
+        padding: 250px 0;
+        overflow: hidden;
+    }
+
+
+
+
+}
+
