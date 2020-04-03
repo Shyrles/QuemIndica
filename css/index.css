@@ -81,6 +81,10 @@
     margin: 50px 0;
 }
 
+.box_img {
+    padding: 0 100px;
+}
+
 
 /* banner cadastro index */
 
@@ -102,10 +106,8 @@
 .banner_team {
     background-color: #007592;
     color: #FCDA73;
-    background-size: cover;
     width: 100%;
     margin-top: 0px;
-    padding-bottom: 20px;
     height: 95vh;
 }
 
@@ -118,6 +120,12 @@
 #logo_banner {
     height: 20vh;
 }
+
+.box_text_right {
+    padding: 60px 0;
+}
+
+
 
 
 
@@ -132,23 +140,13 @@
         padding-bottom: 50px;
         font-size: 1.1em;
     }
-    
-
-}
-
-@media (min-width: 992px) {
-    .box {
-        padding: 0 100px;
-    }
 
     .box_img_left {
         padding: 0 100px;
     }
-
-    .box h4 {
-        padding-top: 50px;
-    }    
+    
 }
+
 
 @media (min-width: 1200px) {
     .img_rede_social {
@@ -156,8 +154,10 @@
         width: 100%;
     }
 
-
-
+    .box {
+        padding: 0 100px;
+    }
+    
     .box_img {
         float: right;
         width: 50%;
@@ -170,19 +170,13 @@
     .box_text {
         float: left;
         width: 50%;
-        height: 95vh;
         margin: 0;
         padding: 250px 0;
         overflow: hidden;
     }
 
-    .box_img_left {
-        float: left;
-        width: 50%;
-        height: 70vh;
-        margin: 0;
-        overflow: hidden;
-        padding: 0;
+    .banner_team {
+        height: 72vh;
     }
 
     .box_text_right {
@@ -195,8 +189,44 @@
         height: 70vh;
     }
 
+    .box_img_left {
+        float: left;
+        width: 50%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .img_rede_social {
+        margin-top: 20px;
+        width: 65%;
+    }
+
     .banner_team {
-        height: 70vh;
+        height: 55vh;
+    }
+
+    .box_text_right {
+        overflow: hidden;
+        float: right;
+        width: 50%;
+        margin: 0;
+        padding: 50px 0;
+        height: 55vh;
+    }
+
+    .box_img_left {
+        float: left;
+        width: 50%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+
+    .box {
+        padding: 0 100px;
     }
 }
 

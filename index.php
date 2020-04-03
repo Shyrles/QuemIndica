@@ -23,12 +23,13 @@
         <div class="container">
                 <div class="box">
                     <img src="imagens/trabalhadores_lupa.png" class="service img-fluid" alt="">
-
+                    <div class= "box_text_top">
                     <h4 class="text-center font_h4">Procura um serviço?</h4>
                             <p class="text-center texto_home font_p"> No Quem Indica você encontra o que precisa com indicações 
                             feitas pelas pessoas que você mais confia...
                             Estamos prontos para ajudar você encontrar o profissional que precisa!    
                         </p>
+                        </div>
             </div>
         </div>
 
