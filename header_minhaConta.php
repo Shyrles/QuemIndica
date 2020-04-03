@@ -5,11 +5,11 @@
             class="d-inline-block align-top" alt=""></a>
       
       <!-- Barra de busca -->
+      
       <div id="divBusca">
         <input type="text" id="txtBusca" placeholder="Buscar..."/>
-        <a href="#"><img src="imagens/loupe.png" id="btnBusca" alt="Buscar" /></a>
       </div>
-           
+        
       <!-- Botões direita -->
         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
             <li class="nav-item">

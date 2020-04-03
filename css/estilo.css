@@ -40,15 +40,13 @@ header {
 
 #divBusca {
     background-color: white;
+    background-size: 8%;
+    background-image: url('../imagens/loupe.png');
+    background-position: 98%; 
+    background-repeat: no-repeat;
     border: solid 1px;
     border-color: #cccccc;
     border-radius: 5px;
-    width: 350px;
-    height: 40px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
 #txtBusca {
@@ -57,14 +55,6 @@ header {
     padding-left: 5px;
     font-size: 18px;
     border: none;
-    height: 40px;
-    width: 315px;
-}
-
-#btnBusca {
-    width: 25px;
-    position: relative;
-    margin: 6px 0 6px 0;
 }
 
 .hamburguer {
