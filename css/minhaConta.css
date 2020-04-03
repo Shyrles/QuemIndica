@@ -6,8 +6,10 @@
 }
 
 body {
-    background-color:#E2E2E7;
-    margin: 0;
+    background-color:white;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
     padding: 0;
     font-size: 16px;
 }
@@ -274,33 +276,26 @@ ul li a {
     
 }
 
-.banner_minhaConta {
-    background-color: #007592;
-    background-size: cover;
-    width: 100%;
-    height: 45vh;
-    margin-top: 4%;
-  }
 
   .imagemUsuario{
     padding: 20px;
     margin-top: 0%;
     border-radius: 50%;
-    width: 15%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .nomeUsuario{
+    padding: 20px;
+    margin-top: 0%;
+    width: 100%;
     color: #FCDA73;
-    font-size: 3.0em;
-    line-height: 30px;
-    margin-top: 2%;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    font-size: 1.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  
 }
 #fotoPequena{
@@ -324,6 +319,27 @@ ul li a {
 
 /*CSS da pagina Servicos*/
 
+#imgAmigos{
+    width: 60px;
+}
 
+#minhasHashtags{
+    background-color:#0f4c81 ;
+    border:solid 1px;  
+}
 
+#posicao{
+width: 100%;
+margin-left: 0;
 
+}
+
+#ladoDireito{
+    width: 100%;
+    grid-area: right;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-right: -25%;
+}
