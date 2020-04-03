@@ -18,150 +18,151 @@
     
     <?php require_once ("header_minhaConta.php"); ?>
 
-    <section class="banner_minhaConta"> 
-        <img class="imagemUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do Usuário">
-        <p class="nomeUsuario">Shyrles Monteiro</p>
-    </section>
+    <!--section class="banner_minhaConta"--> 
+        <!--img class="imagemUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do Usuário"-->
+        <!--p class="nomeUsuario">Shyrles Monteiro</p-->
+    <!--/section-->
  
-
-    <div class="container" id="bannerPublicacoes">
-        <div class="row">
+    <div class="container mt-5 mb-n5" id="posicao"> 
+        <div class="row justify-content-center pt-4 pb-5" >  
           
         <!--Primeira Coluna Minhas Hashtags -->   
-           <div class="col-sm" >
-                <h5 class="mt-0"><strong># Minhas Hashtags </strong></h5>
+           <div class="col-sm-2 sm-12 pt-3" id="minhasHashtags">
+                <img class="imagemUsuario" src="imagens/usuario.png" alt="Foto do Usuário">
+                 <p class="nomeUsuario">Shyrles Monteiro</p>
+
+                <h5 class="mt-0 text-center text-white mb-5"><strong># Minhas Hashtags </strong></h5>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#quemindica</p> </div>
+                    <div class="media-body text-white"> <p>#quemindica</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#teamo</p> </div>
+                    <div class="media-body text-white"> <p>#teamo</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#amo</p> </div>
+                    <div class="media-body text-white"> <p>#amo</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#riodejaneiro</p> </div>
+                    <div class="media-body text-white"> <p>#riodejaneiro</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#jesus</p> </div>
+                    <div class="media-body text-white"> <p>#jesus</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#riodejaneiro</p> </div>
+                    <div class="media-body text-white"> <p>#riodejaneiro</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#modafeminina</p> </div>
+                    <div class="media-body text-white"> <p>#modafeminina</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#estilo</p> </div>
+                    <div class="media-body text-white"> <p>#estilo</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#foco</p> </div>
+                    <div class="media-body text-white"> <p>#foco</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#domingo</p> </div>
+                    <div class="media-body text-white"> <p>#domingo</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#sp</p> </div>
+                    <div class="media-body text-white"> <p>#sp</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#paz</p> </div>
+                    <div class="media-body text-white"> <p>#paz</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#lookdodia</p> </div>
+                    <div class="media-body text-white"> <p>#lookdodia</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#praia</p> </div>
+                    <div class="media-body text-white"> <p>#praia</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#natureza</p> </div>
+                    <div class="media-body text-white"> <p>#natureza</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#gratidão</p> </div>
+                    <div class="media-body text-white"> <p>#gratidão</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#rj</p> </div>
+                    <div class="media-body text-white"> <p>#rj</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#saopaulo</p> </div>
+                    <div class="media-body text-white"> <p>#saopaulo</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#casamento</p> </div>
+                    <div class="media-body text-white"> <p>#casamento</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#deus</p> </div>
+                    <div class="media-body text-white"> <p>#deus</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#amigas</p> </div>
+                    <div class="media-body text-white"> <p>#amigas</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#frases</p> </div>
+                    <div class="media-body text-white"> <p>#frases</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#deus</p> </div>
+                    <div class="media-body text-white"> <p>#deus</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#tendencia</p> </div>
+                    <div class="media-body text-white"> <p>#tendencia</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#festa</p> </div>
+                    <div class="media-body text-white"> <p>#festa</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#fé</p> </div>
+                    <div class="media-body text-white"> <p>#fé</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#gratidao</p> </div>
+                    <div class="media-body text-white"> <p>#gratidao</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#bebe</p> </div>
+                    <div class="media-body text-white"> <p>#bebe</p> </div>
                 </div>
                 <div class="media">
                     <img class="mr-3" id="imgHashtag" src="imagens/hashtag-01.png" alt="Imagem de uma lupa com hashtag">
-                    <div class="media-body"> <p>#sabado</p> </div>
+                    <div class="media-body text-white"> <p>#sabado</p> </div>
                 </div>
 
             </div>
           
  
-                                
-          
-          
-          
-            <!--Segunda Coluna Minhas Publicações -->
-            <div class="col-sm">
+         <!--Segunda Coluna Minhas Publicações -->
+        
+         <div class="col justify-content-center mt-3 mb-3" >     
+            <div class="col-sm-6 sm-12" style="width: 30rem;">
                <!--Publicação 1 -->
-                <div class="media">
+                <div class="media" >
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
-                    <div class="media-body">
+                    <div class="media-body" >
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        Alguém faz montagem de móveis? Preciso montar um guarda-roupa e uma cômoda 
+                        <h6 class="mt-0" style="width: 25rem;">Alguém faz montagem de móveis? Preciso montar um guarda-roupa e uma cômoda</h6>
+                         
                     </div>
                 </div>
 
@@ -170,7 +171,7 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        Algum Pintor de casa?
+                        <h6 class="mt-0" style="width: 25rem;">Algum Pintor de casa?</h6>
                     </div>
                 </div>
 
@@ -187,7 +188,7 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        Alguém conhece alguma escola ou hotelzinho infantil na região, que fica com a criança em caso de emergência por períodos mais curtos? Ou algum site de baba que cobra por diária de confiança... Indicações pleaaseee!!!! Muito obrigada bjs . Procurando Recomendaçãos!
+                        <h6 class="mt-0" style="width: 25rem;">Alguém conhece alguma escola ou hotelzinho infantil na região, que fica com a criança em caso de emergência por períodos mais curtos? Ou algum site de baba que cobra por diária de confiança... Indicações pleaaseee!!!! Muito obrigada bjs . Procurando Recomendaçãos!</h6>
                     </div>
                 </div>
                  <!--Publicação 5 -->
@@ -195,241 +196,241 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        Eai, qual anime ta mais ansioso?
-                        Animes:
-                        Boku no Hero 4 temporada
-                        Nanatsu no Taizai 3ª temporada
-                        Shokugeki no Souma 4ª temporada
-                        Granblue Fantasy 2ª temporada
-                        Psycho Pass 3ª temporada
-                        Radiant 2ª temporada
-
-                        - Kito
+                        <h6 class="mt-0" style="width: 25rem;">Eai, qual anime ta mais ansioso?</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Animes:</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Boku no Hero 4 temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Nanatsu no Taizai 3ª temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Shokugeki no Souma 4ª temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Granblue Fantasy 2ª temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Psycho Pass 3ª temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">Radiant 2ª temporada</h6>
+                        <h6 class="mt-0" style="width: 25rem;">- Kito</h6>
                         <img src="imagens/minhaConta/recomendacaoOtaku.jpg" alt="imagem da indicação de serie">
                     </div>
                 </div>
 
             </div>
-
-
-
-
-        <!--Terceira Coluna Amigos -->   
-           <div class="col-sm">
-                <h5 class="mt-0"><strong>Amigos </strong></h5>
-               
+        </div>
+        
+        <!--Terceira Coluna Amigos --> 
+        <div class="col justify-content-right mt-0 mb-0" id="ladoDireito">   
+           <div class="col-sm-50 sm-5 pt-3 ml-5" >
+                <h5 class="mt-0 text-white"><strong>Amigos </strong></h5> 
                <!--primeira linha -->   
-                <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/sandra.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Sandra</p>  
-                    </div>
+               <div class="media " >
+                    
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                        Sara margarido         
+                    </div> 
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/sara.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Sara</p>
-                        
-                    </div>
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/millena.png" alt="Imagem de capa do card">
-                        <p class="card-text">Millena</p>
-                    </div>
+                    <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
+
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
+
+                    
                 </div>
 
                 <!--segunda linha --> 
-                <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/marcia.png" alt="Imagem de capa do card">
-                        <p class="card-text">Marcia</p>  
-                    </div>
+                <div class="media " >
+                    
+                <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                        Sara margarido         
+                    </div> 
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/gabriel.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Gabriel</p>
-                        
-                    </div>
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/joao.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">João</p>
-                    </div>
+                    <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
+
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
                 </div>
-
                 <!--terceira linha --> 
-                <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/Leonardo.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Leonardo</p>  
-                    </div>
+                <div class="media " >
+                    
+                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                        Sara margarido         
+                    </div> 
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/vivian.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Vivian</p>
-                        
-                    </div>
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/larissa.png" alt="Imagem de capa do card">
-                        <p class="card-text">Larissa</p>
-                    </div>
+                    <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
+
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
                 </div>
-
                  <!--quarta linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/aline.png" alt="Imagem de capa do card">
-                        <p class="card-text">Aline</p>  
-                    </div>
+                 <div class="media " >
+                    
+                 <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                        Sara margarido         
+                    </div> 
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/mariana.png" alt="Imagem de capa do card">
-                        <p class="card-text">Mariana</p>
-                        
-                    </div>
 
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/michelle.png" alt="Imagem de capa do card">
-                        <p class="card-text">Michelle</p>
-                    </div>
+                    <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
+
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                        <div class="img-animation">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                        </div> 
+                            Sara margarido  
+                    </div> 
                 </div>
-
-                 <!--quinta linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/stefany.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Stefany</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/vivian.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Vivian</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/juliana.png" alt="Imagem de capa do card">
-                        <p class="card-text">Juliana</p>
-                    </div>
-                </div>
-
+                <!--quinta linha --> 
+                <div class="media " >
+                    
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                           Sara margarido         
+                       </div> 
+   
+   
+                       <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+   
+                       <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+                   </div>
 
                  <!--sexta linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/stefany.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Stefany</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/leonardo.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Leonardo</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/joao.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">João</p>
-                    </div>
-                </div>
-
-
-                 <!--setima linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/zenaide.png" alt="Imagem de capa do card">
-                        <p class="card-text">Zenaide</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/pablo.png" alt="Imagem de capa do card">
-                        <p class="card-text">Pablo</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/pedro.png" alt="Imagem de capa do card">
-                        <p class="card-text">Pedro</p>
-                    </div>
-                </div>
-
-
-                 <!--oitava linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/larissa.png" alt="Imagem de capa do card">
-                        <p class="card-text">Larissa</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/sandra.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Sandra</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/sara.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Sara</p>
-                    </div>
-                </div>
-
-                <!--nona linha --> 
-                <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/marcia.png" alt="Imagem de capa do card">
-                        <p class="card-text">Marcia</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/gabriel.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">Gabriel</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/joao.jfif" alt="Imagem de capa do card">
-                        <p class="card-text">João</p>
-                    </div>
-                </div>
-
-                 <!--decima linha --> 
-                 <div class="media">
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/aline.png" alt="Imagem de capa do card">
-                        <p class="card-text">Aline</p>  
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/mariana.png" alt="Imagem de capa do card">
-                        <p class="card-text">Mariana</p>
-                        
-                    </div>
-
-                    <div class="card" style="width: 6rem;">
-                        <img class="card-img-top" src="imagens/minhaConta/michelle.png" alt="Imagem de capa do card">
-                        <p class="card-text">Michelle</p>
-                    </div>
-                </div>
-
-
-
-            </div>
+                 <div class="media " >
+                    
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                           Sara margarido         
+                       </div> 
+   
+   
+                       <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+   
+                       <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+                   </div>
+                <!--setima linha --> 
+                <div class="media " >
+                    
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                           Sara margarido         
+                       </div> 
+   
+   
+                       <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+   
+                       <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+                   </div>
+                <!--oitava linha --> 
+                <div class="media " >
+                    
+                    <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                           Sara margarido         
+                       </div> 
+   
+   
+                       <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+   
+                       <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
+                           <div class="img-animation">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                           </div> 
+                               Sara margarido  
+                       </div> 
+                   </div>
 
 
 
 
 
 
+ 
+  
 
-
-
-
-
-
-
-
-          
-            
+             </div>
+            </div>        
         </div>
     </div>
 
