@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
-
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color:white;
+    background-color: white;
     margin: 0 auto;
     width: 100%;
     height: 100vh;
@@ -25,6 +24,7 @@ header {
 .container-fluid {
     width: 100%;
 }
+
 
 /* banner index topo */
 
@@ -55,13 +55,11 @@ header {
 }
 
 #btn_qi a {
-
     color: #fcda73;
     font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 #cor {
     color: #fcda73;
@@ -87,6 +85,7 @@ header {
     padding: 30px;
 }
 
+
 /* banner index meio */
 
 .banner_middle {
@@ -110,6 +109,7 @@ header {
     width: 90%;
 }
 
+
 /* banner cadastro index */
 
 .banner_cadastro {
@@ -127,26 +127,28 @@ header {
 .btn-azul {
     background: #00415e;
 }
+
+
 /* barra de busca */
 
-#divBusca{
+#divBusca {
     background-color: white;
-    border:solid 1px;
+    border: solid 1px;
     border-color: #cccccc;
-    border-radius:5px;
-    width:350px;
+    border-radius: 5px;
+    width: 350px;
     height: 40px;
-  }
-   
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:40px;
-    width:315px;
-  }
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    width: 315px;
+}
 
 #btnBusca {
     width: 25px;
@@ -164,14 +166,16 @@ header {
     color: #FCDA73;
     width: 100%;
     height: 47vh;
-  }
+}
 
 #quemindica {
     margin-top: 90px;
     width: 15%;
 }
 
+
 /* sobre nós */
+
 .banner_conteudo {
     background-color: #E2E2E7;
     background-size: cover;
@@ -185,9 +189,9 @@ header {
     width: 40%;
 }
 
-span#sobre  {
+span#sobre {
     padding: 5px;
-    font-size: 1,2em;
+    font-size: 1, 2em;
     line-height: 35px;
 }
 
@@ -204,7 +208,7 @@ span#sobre h4 {
     background-size: cover;
     width: 100%;
     height: 27vh;
-  }
+}
 
 .banner_cinza h1 {
     color: #FCDA73;
@@ -236,21 +240,24 @@ span#sobre h4 {
 .question {
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
-  }
-  
-  .question input,
-  .question .answer { display: none }
-  
-  .question label {
+}
+
+.question input,
+.question .answer {
+    display: none
+}
+
+.question label {
     display: inline-block;
     font-weight: bold;
     margin-bottom: 5px;
     width: 100%
-  }
-  
-  .question input:checked ~ .answer {
+}
+
+.question input:checked~.answer {
     display: block
-  }
+}
+
 
 /* foooter */
 
@@ -267,17 +274,16 @@ ul li a {
     width: 100px;
 }
 
+
 /*CSS da pagina Minha Conta*/
 
-#fotoUsuario{
+#fotoUsuario {
     width: 6%;
     margin-left: 93%;
     margin-top: 0.5%;
-    
 }
 
-
-  .imagemUsuario{
+.imagemUsuario {
     padding: 20px;
     margin-top: 0%;
     border-radius: 50%;
@@ -287,7 +293,7 @@ ul li a {
     margin-right: auto;
 }
 
-.nomeUsuario{
+.nomeUsuario {
     padding: 20px;
     margin-top: 0%;
     width: 100%;
@@ -296,45 +302,40 @@ ul li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
- 
 }
-#fotoPequena{
+
+#fotoPequena {
     width: 45px;
     border-radius: 50%;
 }
 
-#imgHashtag{
+#imgHashtag {
     width: 25px;
 }
 
-.dropdown{
+.dropdown {
     margin-top: 1%;
-   
 }
 
-.card-text{
+.card-text {
     font-size: 14px;
 }
 
-
-/*CSS da pagina Servicos*/
-
-#imgAmigos{
+#imgAmigos {
     width: 60px;
 }
 
-#minhasHashtags{
-    background-color:#0f4c81 ;
-    border:solid 1px;  
+#minhasHashtags {
+    background-color: #0f4c81;
+    border: solid 1px;
 }
 
-#posicao{
-width: 100%;
-margin-left: 0;
-
+#posicao {
+    width: 100%;
+    margin-left: 0;
 }
 
-#ladoDireito{
+#ladoDireito {
     width: 100%;
     grid-area: right;
     background-color: #666;
@@ -342,4 +343,15 @@ margin-left: 0;
     flex-direction: column;
     padding: 0px;
     margin-right: -25%;
+}
+
+
+/* PAGINA DE SERVICOS */
+
+#topo {
+    margin-top: 40px;
+}
+
+#topo1 {
+    margin-top: 15px;
 }

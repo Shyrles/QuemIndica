@@ -19,11 +19,11 @@
     
     <?php require_once ("header_deslog.php"); ?>
    
-   <div class="container mt-5 " > 
-        <div class="row justify-content-center pt-5 pb-2">  
+   <div class="container-fluid  " > 
+        <div class="row  pt-5 pb-2">  
         <!--primeira linha -->  
-           <div class="col-md-3 col-12"> 
-                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+           <div class="col-md-3 col-12"id="topo" > 
+                <div class="card bg-warning text-black border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -35,8 +35,8 @@
                 </div> 
             </div>
 
-            <div class="col-md-3 col-12">               
-                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+            <div class="col-md-3 col-12"id="topo">               
+                 <div class="card bg-secondary text-white border-white" style=>  <!--botom topo -->   
                      <div class="img-animation">
                          <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                      </div>  
@@ -48,8 +48,8 @@
                  </div> 
              </div>
 
-            <div class="col-md-3 col-12">          
-                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+            <div class="col-md-3 col-12"id="topo">          
+                <div class="card bg-warning text-black border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -61,8 +61,8 @@
                 </div>
              </div>
 
-             <div class="col-md-3 col-12">   
-                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+             <div class="col-md-3 col-12"id="topo">   
+                 <div class="card bg-secondary text-white border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -75,10 +75,10 @@
              </div>
         </div>
         <!--segunda linha --> 
-        <div class="row justify-content-center mt-3 mb-3">  
+        <div class="row  mt-3 mb-3">  
          
-           <div class="col-md-3 col-12"> 
-                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+           <div class="col-md-3 col-12"id="topo1"> 
+                <div class="card bg-warning text-black border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -90,8 +90,8 @@
                 </div> 
             </div>
 
-            <div class="col-md-3 col-12">               
-                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+            <div class="col-md-3 col-12"id="topo1">               
+                 <div class="card bg-secondary text-white border-white" style=>  <!--botom topo -->   
                      <div class="img-animation">
                          <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                      </div>  
@@ -103,8 +103,8 @@
                  </div> 
              </div>
 
-            <div class="col-md-3 col-12">          
-                <div class="card bg-warning text-black border-white" style="width: 17rem;">  <!--botom topo -->   
+            <div class="col-md-3 col-12"id="topo1">          
+                <div class="card bg-warning text-black border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -116,8 +116,8 @@
                 </div>
              </div>
 
-             <div class="col-md-3 col-12">   
-                 <div class="card bg-secondary text-white border-white" style="width: 17rem;">  <!--botom topo -->   
+             <div class="col-md-3 col-12"id="topo1">   
+                 <div class="card bg-secondary text-white border-white" style=>  <!--botom topo -->   
                     <div class="img-animation">
                         <img class="card-img-top" src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card">
                     </div>  
@@ -135,10 +135,10 @@
 
 
     </div>
-</div>
+</body>
 
 
-    <?= require_once ("footer.php"); ?>
+<?php require_once ("footer.php"); ?>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
