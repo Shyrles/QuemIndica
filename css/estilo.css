@@ -39,14 +39,11 @@ header {
 /* barra de busca */
 
 #divBusca {
-    background-color: white;
-    background-size: 8%;
-    background-image: url('../imagens/loupe.png');
-    background-position: 98%; 
-    background-repeat: no-repeat;
-    border: solid 1px;
-    border-color: #cccccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 #txtBusca {
