@@ -1,5 +1,7 @@
 /* ÁREA RESPONSIVA */
 
+
+
 /* Estilos aplicados a larguras acima de 320px  até  480px */
 
 
@@ -21,7 +23,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 350px 0.5fr 680px 1fr;
+    grid-template-rows: 150px 280px 0.5fr 550px 1fr;
     grid-template-areas: "header""left""right""main""footer";
 }
 
@@ -40,24 +42,28 @@ body {
     grid-area: left;
     margin: 0px;
     display: flex;
-    background-color: #e5e5e5;
+    background-color: #0f4c81;
     padding: 5px;
     margin: 0px;
 }
 
-#usuario img {
+#avatar-usuario img {
     width: 100px;
     margin: 0px 10px;
     padding: 5px;
     border-radius: 60%;
+    display: flex;
 }
 
-#explorar {
-    display: none !important;
+.menu-lateral {
+    display: flex;
 }
 
+.menu-lateral {
+    
+}
 
-.col-9 {
+#explorar-hashtags {
     display: none !important;
 }
 
@@ -82,10 +88,11 @@ body {
 }
 
 #cards-servicos img {
-    width: 50px;
+    width: 60px;
     margin: 5px;
     display: inline;
-}
+} 
+
 
 
 /* SECTION CONTEÚDO */
@@ -115,53 +122,6 @@ body {
     margin: 2px;
     padding: 1px;
     border-radius: 20px;
-}
-
-
-/* SECTION FOOTER */
-
-.footer {
-    grid-area: footer;
-    padding: 0px;
-    background-color: #333;
-    color: #fff;
-    font-size: 0.8em;
-
-}
-
-.footer ul li {
-    list-style-type: none;
-    display: inline;
-    font-size: 1em;
-}
-
-.footer ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.footer img {
-    width: 30px;
-    margin: 5px;
-}
-
-.footer h6 {
-    text-align: center;
-}
-
-.endereco {
-    text-align: center;
-}
-
-.copyright {
-    color: #fff;
-    background-color: #666;
-    text-align: center;
-    width: 100%;
-}
-
-.copyright p {
-    font-size: 1em;
 }
 
 
