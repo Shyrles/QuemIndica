@@ -7,7 +7,7 @@
 <!-- Barra de busca -->
 
 <div>
-    <form class="form-inlin">
+    <form class="form-inline teste">
         <input class="form-control mr-sm-2 divBusca" type="search" placeholder="Buscar" aria-label="Search">  
     </form>
 </div>
@@ -16,7 +16,7 @@
 <ul class="navbar-nav flex-row ml-md-auto d-flex">
     <li class="nav-item">
 
-        <img id="fotoUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do usuario" class="rounded">
+        <img id="fotoUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do usuario" width="40px" class="rounded">
 
     </li>
     

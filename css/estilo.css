@@ -62,9 +62,9 @@ header {
 
 
 #fotoUsuario {
-    width: 6%;
-    margin-left: 93%;
-    margin-top: 0.5%;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .fundo {
