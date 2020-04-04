@@ -154,7 +154,7 @@
  
          <!--Segunda Coluna Minhas Publicações -->
         
-         <div class="col justify-content-center mt-3 mb-3" >     
+         <div class="col justify-content-center mt-5 mb-3" >     
             <div class="col-sm-6 sm-12" style="width: 30rem;">
                <!--Publicação 1 -->
                 <div class="media" >
@@ -214,8 +214,8 @@
         
         <!--Terceira Coluna Amigos --> 
         <div class="col justify-content-right mt-0 mb-0" id="ladoDireito">   
-           <div class="col-sm-50 sm-5 pt-3 ml-5" >
-                <h5 class="mt-0 text-white"><strong>Amigos </strong></h5> 
+           <div class="col-sm-50 sm-5 pt-3 ml-5 mt-4" >
+                <h5 class="mt-0 text-white"><strong>Amigos</strong></h5> 
                <!--primeira linha -->   
                <div class="media " >
                     
@@ -229,16 +229,16 @@
 
                     <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/aline.png" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Aline margarido  
                     </div> 
 
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/gabriel.jfif" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Gabriel Teacher  
                     </div> 
 
                     
@@ -249,24 +249,24 @@
                     
                 <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/joao.jfif" alt="Imagem do usuario">
                         </div> 
-                        Sara margarido         
+                        João margarido         
                     </div> 
 
 
                     <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/juliana.png" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Juliana Alencar   
                     </div> 
 
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/leonardo.jfif" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Leonardo Margarido  
                     </div> 
                 </div>
                 <!--terceira linha --> 
@@ -274,24 +274,24 @@
                     
                      <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/marcia.png" alt="Imagem do usuario">
                         </div> 
-                        Sara margarido         
+                        Marcia margarido         
                     </div> 
 
 
                     <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/larissa.png" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Larissa margarido  
                     </div> 
 
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
                             <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Sara Padrão  
                     </div> 
                 </div>
                  <!--quarta linha --> 
@@ -299,24 +299,24 @@
                     
                  <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/mariana.png" alt="Imagem do usuario">
                         </div> 
-                        Sara margarido         
+                        Mariana Santos         
                     </div> 
 
 
                     <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/michelle.png" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Michele Le  
                     </div> 
 
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
-                            <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                            <img class="card-img-top rounded-4" src="imagens/minhaConta/larissa.png" alt="Imagem do usuario">
                         </div> 
-                            Sara margarido  
+                            Camila de jesus  
                     </div> 
                 </div>
                 <!--quinta linha --> 
@@ -324,17 +324,17 @@
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/aline.png" alt="Imagem do usuario">
                            </div> 
-                           Sara margarido         
+                           Aline de Novo         
                        </div> 
    
    
                        <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/roger.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Roger margarido  
                        </div> 
    
                        <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
@@ -350,24 +350,24 @@
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/stefany.jfif" alt="Imagem do usuario">
                            </div> 
-                           Sara margarido         
+                           Stefany Silva         
                        </div> 
    
    
                        <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/vivian.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Vivian Toledo  
                        </div> 
    
                        <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/marcia.png" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Zenaide Camargo  
                        </div> 
                    </div>
                 <!--setima linha --> 
@@ -375,24 +375,24 @@
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/gabriel.jfif" alt="Imagem do usuario">
                            </div> 
-                           Sara margarido         
+                           Gabi margarido         
                        </div> 
    
    
                        <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sandra.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Sandra margarido  
                        </div> 
    
                        <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/stefany.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Stefany margarido  
                        </div> 
                    </div>
                 <!--oitava linha --> 
@@ -400,24 +400,24 @@
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/joao.jfif" alt="Imagem do usuario">
                            </div> 
-                           Sara margarido         
+                           João margarido         
                        </div> 
    
    
                        <div class="card bg-warning text-white border-warning ml-3 mr-3 mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/leonardo.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Professor margarido  
                        </div> 
    
                        <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
-                               <img class="card-img-top rounded-4" src="imagens/minhaConta/sara.jfif" alt="Imagem do usuario">
+                               <img class="card-img-top rounded-4" src="imagens/minhaConta/vivian.jfif" alt="Imagem do usuario">
                            </div> 
-                               Sara margarido  
+                               Vivian Again  
                        </div> 
                    </div>
 
