@@ -16,7 +16,7 @@
 <!-- Botões direita -->
 <ul class="navbar-nav flex-row ml-md-auto d-flex">
     <li class="nav-item">
-        <img id="fotoUsuario" src="imagens/fotoUsuario.jpg" alt="Foto do usuario" width="40" height="40" class="rounded">
+        <img id="fotoUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do usuario" width="40" height="40" class="rounded">
         <!--a class="nav-link active" href="#"><button type="button" class="btn btn-dark">Registrar</button></a-->
     </li>
     
