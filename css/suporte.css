@@ -1,106 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
 * {
-    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    width: 560px;
-    height: 90vh;
     margin: 0 auto;
-    max-width: 100%;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-h1 {
-    color: #333333;
-    margin: 0;
-}
-
-.container {
-    display: inline-block;
-    background-color: #e5e5e5;
-    padding: 50px 80px;
-    margin-top: 5px;
-}
-
-.nome {
-    float: left;
-    margin: 1px;
-}
-
-.sobrenome {
-    float: right;
-    margin: 1px;
-}
-
-.email {
-    clear: both;
-    float: left;
-    margin: 1px;
-}
-
-.telefone {
-    float: right;
-    margin: 1px;
-}
-
-.mensagem {
-    display: block;
-    clear: both;
-    float: left;
-    margin: 10px 0;
-    border-radius: 10px;
-    background-color: #ffffff;
-    padding: 10px;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-}
-
-button {
-    float: left;
-    clear: both;
-    border: none;
-    border-radius: 10px;
-    padding: 5px 20px;
-    background-color: #0f4c81;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-input {
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: none;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    outline: 0;
-    /*remove borda azul */
-}
-
-textarea {
-    border: none;
-    resize: none;
-    outline: 0;
-}
-
-nav {
-    padding: 30px;
-    position: relative;
-    top: 10px;
+    width: 100%;
+    height: 100vh;
     font-size: 20px;
+    background-color: #e5e5e5;
 }
 
-a {
-    text-decoration: none;
-    color: #414040;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr 5px;
+    grid-template-areas: "header""main""footer";
 }
 
-a:hover {
-    color: #d64e1c;
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
 }
 
 
-/*
+display-flex,
+.signup-content,
+.form-row {
+    display: flex;
+}
 
-div ::placeholder {
-    /* color: #5f5f5f; 
-} */
+input,
+textarea {
+    outline: none;
+    appearance: unset !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo {
+    padding: 15px;
+    color: #0f4c81;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.signup-img {
+    width: 50%;
+}
+
+.register-form {
+    padding: 50px 5px 50px 70px;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+.footer {
+    grid-area: footer;
+}
+
+
+/* ÁREA RESPONSIVA */
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .submit {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .form-row {
+        flex-direction: column;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+        margin: 0px;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .radio-label {
+        padding-right: 22px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .register-form {
+        padding: 50px 40px 50px 40px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: calc(100% - 40px);
+        max-width: 100%;
+    }
+
+    .signup-content {
+        flex-direction: column;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+
+    .signup-img,
+    .signup-form {
+        width: 100%;
+    }
+}
+
+

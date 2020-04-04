@@ -1,0 +1,214 @@
+/* ÁREA RESPONSIVA */
+
+/* Estilos aplicados a larguras acima de 320px  até  480px */
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        /* background-color: #F9C; */
+    }
+}
+
+
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 350px 0.5fr 680px 1fr;
+    grid-template-areas: "header""left""right""main""footer";
+}
+
+/* SECTION HEADER */
+
+.header {
+    grid-area: header;
+    background-color: #e5e5e5;
+    margin: 0px;
+}
+
+
+/* SECTION ASIDE-LEFT */
+
+.left {
+    grid-area: left;
+    margin: 0px;
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 5px;
+    margin: 0px;
+}
+
+#usuario img {
+    width: 100px;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 60%;
+}
+
+#explorar {
+    display: none !important;
+}
+
+
+.col-9 {
+    display: none !important;
+}
+
+
+/* SECTION ASIDE-RIGHT */
+
+.right {
+    grid-area: right;
+    background-color: #666;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+.right h4 {
+    display: none !important;
+}
+
+#cards-servicos {
+    padding: 5px;
+    display: flex;
+}
+
+#cards-servicos img {
+    width: 50px;
+    margin: 5px;
+    display: inline;
+}
+
+
+/* SECTION CONTEÚDO */
+
+.main {
+    grid-area: main;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 0px;
+}
+
+.hashtags {
+    display: flex;
+}
+
+#hashtags ul li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+#hashtags ul li a {
+    padding: 12px;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color: #666;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+
+/* SECTION FOOTER */
+
+.footer {
+    grid-area: footer;
+    padding: 0px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1em;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 30px;
+    margin: 5px;
+}
+
+.footer h6 {
+    text-align: center;
+}
+
+.endereco {
+    text-align: center;
+}
+
+.copyright {
+    color: #fff;
+    background-color: #666;
+    text-align: center;
+    width: 100%;
+}
+
+.copyright p {
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos aplicados a larguras acima de 481px  até  600px */
+
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    * {
+        background-color: #99ffee;
+    }
+}
+
+/* Estilos aplicados a larguras acima de 601px  até  768px */
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    * {
+        background-color: #812f58;
+    }
+}
+
+
+/* Estilos aplicados a larguras acima de 769px  até  992px */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    * {
+        background-color: #cfff99;
+    }
+}
+
+
+
+/* Estilos aplicados a larguras acima de 993px  até  1382px */
+
+@media screen and (min-width: 993px) and (max-width: 1382px) {
+    * {
+        background-color: #99a3ff;
+    }
+}

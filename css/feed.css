@@ -12,7 +12,6 @@ body {
     font-size: 20px;
 }
 
-
 .grid-container {
     display: grid;
     margin-top: -25px;
@@ -22,117 +21,16 @@ body {
                         "left main right"
                         "left main right"
                         "footer footer footer";
-    justify-content: center;
 }
 
-  /* SECTION HEADER */
+/* SECTION HEADER --------------------------------------------------------------------------------------------------------------------------------*/
 
 .header {
     grid-area: header;
-    padding: 2em;
-    background-color: #e5e5e5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header h1 {
-    display: inline;
-    vertical-align: middle;
-    margin: 0px 5px;
-    color: #333;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.header ul li {
-    margin: 0px;
-    list-style-type: none;
-    display: inline;
-    font-size: 1em;
-}
-
-.header ul li a {
-    padding: 12px;
-    color: #333;
-    text-decoration: none;
-}
-
-.header ul li a:hover {
-    color: #0f4c81;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.isotipo {
-    width: 60px;
 }
 
 
-#logo a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.1em;
-}
-
-#logo a:hover {
-    color: #333;
-}
-
-/* SECTION FOOTER */
-
-.footer {
-    grid-area: footer;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    font-size: 0.8em;
-    
-}
-
-.footer ul li {
-    margin: 0px;
-    list-style-type: none;
-    display: inline;
-    font-size: 1em;
-}
-
-.footer ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.footer ul li a:hover {
-    color: #e5e5e5;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer img {
-    width: 30px;
-    margin: 5px;
-}
-
-.footer h6 {
-    text-align: center;
-}
-
-.endereco {
-    text-align: center;
-}
-
-.copyright {
-    color: #fff;
-    background-color: #666;
-    text-align: center;
-    width: 100%;
-}
-
-.copyright p {
-    font-size: 1em;
-}
-
-/* SECTION ASIDE-LEFT */
+/* SECTION ASIDE-LEFT ----------------------------------------------------------------------------------------------------------------------------*/
 
 .left {
     grid-area: left;
@@ -140,7 +38,7 @@ body {
     padding: 20px;
 }
 
-#usuario img {
+#avatar-usuario img {
     width: 130px;
     margin: 20px;
     display: flex;
@@ -154,35 +52,35 @@ body {
     padding: 5px;
 }
 
-#explorar {
+#explorar-hashtags {
     text-align: left;
     color: #fff;
     padding: 10px;
 }
 
-#explorar h4 {
+#explorar-hashtags h4 {
     padding: 10px 0px;
     margin: 10px 0px;
 }
 
-#explorar ul li {
+#explorar-hashtags ul li {
     margin: 0px;
     list-style-type: none;
 }
 
-#explorar ul li a {
+#explorar-hastags ul li a {
     padding: 12px;
     color: #ffffff;
     text-decoration: none;
     font-size: 0.9em;
 }
 
-#explorar ul li a:hover {
+#explorar-hastags ul li a:hover {
     color: #007592;
     font-weight: bold;
 }
 
-  /* SECTION ASIDE-RIGHT */
+/* SECTION ASIDE-RIGHT ---------------------------------------------------------------------------------------------------------------------------*/
 
 .right {
     grid-area: right;
@@ -210,12 +108,11 @@ body {
 }
 
 
-  /* SECTION CONTEÚDO */
+/* SECTION CONTEÚDO ------------------------------------------------------------------------------------------------------------------------------*/
 
 .main {
     grid-area: main;
     background-color: #ffffff;
-    /* height: calc(100vh - 380px); */
 }
 
 .hashtags {
@@ -244,19 +141,10 @@ body {
 }
 
 
+/* SECTION FOOTER --------------------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer {
+    grid-area: footer;
+}
 
 
