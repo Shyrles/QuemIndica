@@ -66,9 +66,7 @@ header {
     font-size: 60px;
 }
 
-.fundo {
-    background-color: #007592;
-}
+
 
 #tam {
     font-size: 50px;
@@ -131,34 +129,12 @@ header {
 
 /* barra de busca */
 
-#divBusca {
-    background-color: white;
-    border: solid 1px;
-    border-color: #cccccc;
-    border-radius: 5px;
-    width: 350px;
-    height: 40px;
-}
-
-#txtBusca {
-    float: left;
-    background-color: transparent;
-    padding-left: 5px;
-    font-size: 18px;
-    border: none;
-    height: 40px;
-    width: 315px;
-}
-
 #btnBusca {
     width: 25px;
     position: relative;
     margin: 6px 0 6px 0;
 }
 
-.hamburguer {
-    margin-left: 50px;
-}
 
 .banner_azul {
     background-color: #007592;
@@ -276,12 +252,6 @@ ul li a {
 
 
 /*CSS da pagina Minha Conta*/
-
-#fotoUsuario {
-    width: 6%;
-    margin-left: 93%;
-    margin-top: 0.5%;
-}
 
 .imagemUsuario {
     padding: 20px;
