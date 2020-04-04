@@ -38,6 +38,7 @@ header {
 
 /* barra de busca */
 
+/* <<<<<<< HEADER */
 
 .divBusca {
     background-color: white;
@@ -58,6 +59,7 @@ header {
     font-size: 18px;
     border: none;
 }
+
 
 #fotoUsuario {
     width: 6%;
