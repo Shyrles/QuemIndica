@@ -18,34 +18,38 @@
 
 <!-- área ícones -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"crossorigin="anonymous">
-    <link rel="shortcut icon" href="imagens/logo_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
 </head>
-
 <body>
 
 <!-- HEADER -->
 
-
-    
-    
 <div class="grid-container">
 
 <header>
     <?php require_once ("header_minhaConta.php"); ?>
 </header>
 
-
-
-
 <!-- ASIDE ESQUERDO -->
 
     <aside class="left">
+
             <div id="avatar-usuario">
-            <img src="imagens/usuario.png" alt="foto teste usuário">
+	            <div class="row">
+                    <div class="profile-header-container">   
+    		            <div class="profile-header-img">
+                        <img class="img-circle" src="../QuemIndica/imagens/minhaConta/fotoUsuario.jpg">
+                
+                        <div class="rank-label-container">
+                        <span class="label label-default rank-label">350 pontos</span>
+                        </div>
+                        </div>
+                    </div> 
+	            </div>
             </div>
 
-
-            <div class="menu-lateral">
+            <!-- <div class="container-fluid menu-lateral">
                 <div class="coluna">
                 <div class="nav nav-pills" id="v-pills-tab" role="tablist">
                 <a class="nav-link active" id="v-pills-feed-tab" data-toggle="pill" href="feed.php" role="tab" aria-controls="v-pills-feed" aria-selected="true">Feed</a>
@@ -57,20 +61,28 @@
                 <a class="nav-link" id="v-pills-parceiros-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-parceiros" aria-selected="false">Parceiros</a>
                 </div>
                 </div>
-
-                <div class="coluna">
-                <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-feed" role="tabpanel" aria-labelledby="v-pills-feed-tab"></div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
-                <div class="tab-pane fade" id="v-pills-amigos" role="tabpanel" aria-labelledby="v-pills-amigos-tab"></div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
-                <div class="tab-pane fade" id="v-pills-indicaces" role="tabpanel" aria-labelledby="v-pills-indicacoes-tab"></div>
-                <div class="tab-pane fade" id="v-pills-parceiros" role="tabpanel" aria-labelledby="v-pills-parceiros-tab"></div>
-                </div>
-                </div>
-            </div>
+            </div> -->
             
+
+            <div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" class="menu-lateral">
+
+                <ul class="list-unstyled components mb-5">
+                    <li><a href="minha_conta.php"><span class="icone fa fa-home"></span>Minha conta</a></li>
+                    <li><a href="amigos.php"><span class="icone fa fa-user"></span>Amigos</a></li>
+                    <li><a href="feed.php"><span class="icone fa fa-sticky-note"></span>Feed</a></li>
+                    <li><a href="config.php"><span class="icone fa fa-cogs"></span>Configurações</a></li>
+                    <li><a href="parceiros.php"><span class="icone fa fa-shopping-cart"></span>Parceiros</a></li>
+                    <li><a href="mensagens.php"><span class="icone fa fa-comment"></span>Mensagens</a></li>
+                    <li><a href="servicos.php"><span class="icone fa fa-address-book-o"></span>Serviços</a></li>
+                    <li><a href="avaliacoes.php"><span class="icone fa fa-star"></span>Avaliações</a></li>
+
+                </ul>
+
+            </nav>
+            </div>
+
+        
             <div id="explorar-hashtags">
                 <h4>Hashtags</h4>
                     <ul class="nav">
@@ -80,6 +92,57 @@
                     <li class="nav-item"><a class="nav-link" href="#">#RESTAURANTE</a></li>
                     </ul>               
             </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </aside>
 
 <!-- ASIDE DIREITO -->
@@ -101,19 +164,9 @@
                     <h4>Serviços</h4>
 
                     <div class="cards-servicos">
-
-                    <div class="card-1">
-                    <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">
-                    </div>
-
-                    <div class="card-2">
-                    <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">
-                    </div>
-
-                    <div class="card-3">
-                    <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">
-                    </div>
-
+                        <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">                            
+                        <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">                                   
+                        <img src="imagens/card-teste-servico.jpg" alt="Imagem de capa do card" class="img-thumbnail">
                     </div>
                 </div>
     </aside>

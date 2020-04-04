@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -39,18 +40,38 @@ body {
 }
 
 #avatar-usuario img {
-    width: 130px;
+    width: 150px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 60%;
+    border-radius: 50%;
 }
 
-#sombra {
-    border: 2px #fff solid;
-    padding: 5px;
+.profile-header-img {
+    padding: 10px;
 }
+
+.rank-label-container {
+    margin-top: -19px;
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: #007592;
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+    color: #fff;
+}
+
+.menu-lateral {
+    margin: 25px 0px;
+}
+
+.icone {
+    margin: 10px;
+}
+
 
 #explorar-hashtags {
     text-align: left;
@@ -59,26 +80,63 @@ body {
 }
 
 #explorar-hashtags h4 {
-    padding: 10px 0px;
-    margin: 10px 0px;
+    font-weight: bold;
 }
 
-#explorar-hashtags ul li {
+#explorar-hashtags,
+.menu-lateral ul li {
     margin: 0px;
     list-style-type: none;
 }
 
-#explorar-hastags ul li a {
+#explorar-hastags,
+.menu-lateral ul li a {
     padding: 12px;
     color: #ffffff;
     text-decoration: none;
     font-size: 0.9em;
 }
 
-#explorar-hastags ul li a:hover {
+#explorar-hashtags,
+.menu-lateral ul li a:hover {
     color: #007592;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SECTION ASIDE-RIGHT ---------------------------------------------------------------------------------------------------------------------------*/
 
@@ -146,5 +204,3 @@ body {
 .footer {
     grid-area: footer;
 }
-
-
