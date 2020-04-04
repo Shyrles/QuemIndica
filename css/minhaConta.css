@@ -66,8 +66,6 @@ header {
     font-size: 60px;
 }
 
-
-
 #tam {
     font-size: 50px;
     color: #fcda73;
@@ -134,7 +132,6 @@ header {
     position: relative;
     margin: 6px 0 6px 0;
 }
-
 
 .banner_azul {
     background-color: #007592;
@@ -297,7 +294,7 @@ ul li a {
 
 #minhasHashtags {
     background-color: #007592;
-    border:solid 1px;
+    border: solid 1px;
 }
 
 #posicao {
@@ -317,10 +314,6 @@ ul li a {
 
 
 /* PAGINA DE SERVICOS */
-
-#topo {
-    margin-top: 40px;
-}
 
 #topo1 {
     margin-top: 15px;
