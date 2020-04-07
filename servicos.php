@@ -19,8 +19,13 @@
     
     <?php require_once ("header_minhaConta.php"); ?>
    
-   <div class="container-fluid  mt-5" > 
-        <div class="row  pt-5 pb-2">  
+    <div class="container-fluid text-center mt-5 pt-5">
+        <h2 text id="tituloServicos" >O Serviço que você procura está aqui!</h2>
+        <h2 text id="tituloServicos" >Indicado pelas pessoas que você mais confia!</h2>
+    </div>
+
+   <div class="container-fluid  mt-0" > 
+        <div class="row  pt-4 pb-2">  
         <!--primeira linha -->  
            <div class="col-md-3 col-12"id="topo" > 
                 <div class="card bg-warning text-black border-white" style=>  <!--botom topo -->   
