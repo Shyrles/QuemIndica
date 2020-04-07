@@ -18,17 +18,12 @@
     
     <?php require_once ("header_minhaConta.php"); ?>
 
-    <!--section class="banner_minhaConta"--> 
-        <!--img class="imagemUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do Usuário"-->
-        <!--p class="nomeUsuario">Shyrles Monteiro</p-->
-    <!--/section-->
- 
-    <div class="container mt-5 mb-n5" id="posicao"> 
+    <div class="container mt-4 mb-n5" id="posicao"> 
         <div class="row justify-content-center pt-4 pb-5" >  
           
         <!--Primeira Coluna Minhas Hashtags -->   
            <div class="col-sm-2 sm-12 pt-3" id="minhasHashtags">
-                <img class="imagemUsuario" src="imagens/usuario.png" alt="Foto do Usuário">
+                <img class="imagemUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do Usuário">
                  <p class="nomeUsuario">Shyrles Monteiro</p>
 
                 <h5 class="mt-0 text-center text-white mb-5"><strong># Minhas Hashtags </strong></h5>
@@ -155,13 +150,13 @@
          <!--Segunda Coluna Minhas Publicações -->
         
          <div class="col justify-content-center mt-5 mb-3" >     
-            <div class="col-sm-6 sm-12" style="width: 30rem;">
+            <div class="col-sm-6 sm-12" >
                <!--Publicação 1 -->
                 <div class="media" >
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body" >
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        <h6 class="mt-0" style="width: 25rem;">Alguém faz montagem de móveis? Preciso montar um guarda-roupa e uma cômoda</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Alguém faz montagem de móveis? Preciso montar um guarda-roupa e uma cômoda</h6>
                          
                     </div>
                 </div>
@@ -171,7 +166,7 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        <h6 class="mt-0" style="width: 25rem;">Algum Pintor de casa?</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Algum Pintor de casa?</h6>
                     </div>
                 </div>
 
@@ -188,7 +183,7 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        <h6 class="mt-0" style="width: 25rem;">Alguém conhece alguma escola ou hotelzinho infantil na região, que fica com a criança em caso de emergência por períodos mais curtos? Ou algum site de baba que cobra por diária de confiança... Indicações pleaaseee!!!! Muito obrigada bjs . Procurando Recomendaçãos!</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Alguém conhece alguma escola ou hotelzinho infantil na região, que fica com a criança em caso de emergência por períodos mais curtos? Ou algum site de baba que cobra por diária de confiança... Indicações pleaaseee!!!! Muito obrigada bjs . Procurando Recomendaçãos!</h6>
                     </div>
                 </div>
                  <!--Publicação 5 -->
@@ -196,15 +191,15 @@
                     <img class="mr-3" id="fotoPequena" src="imagens/minhaConta/fotoUsuario.jpg" alt="Imagem de exemplo genérica">
                     <div class="media-body">
                         <h5 class="mt-0"><strong>Shyrles Monteiro</strong></h5>
-                        <h6 class="mt-0" style="width: 25rem;">Eai, qual anime ta mais ansioso?</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Animes:</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Boku no Hero 4 temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Nanatsu no Taizai 3ª temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Shokugeki no Souma 4ª temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Granblue Fantasy 2ª temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Psycho Pass 3ª temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">Radiant 2ª temporada</h6>
-                        <h6 class="mt-0" style="width: 25rem;">- Kito</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Eai, qual anime ta mais ansioso?</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Animes:</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Boku no Hero 4 temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Nanatsu no Taizai 3ª temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Shokugeki no Souma 4ª temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Granblue Fantasy 2ª temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Psycho Pass 3ª temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">Radiant 2ª temporada</h6>
+                        <h6 class="mt-0" style="width: 35rem;">- Kito</h6>
                         <img src="imagens/minhaConta/recomendacaoOtaku.jpg" alt="imagem da indicação de serie">
                     </div>
                 </div>
@@ -213,11 +208,11 @@
         </div>
         
         <!--Terceira Coluna Amigos --> 
-        <div class="col justify-content-right mt-0 mb-0" id="ladoDireito">   
-           <div class="col-sm-50 sm-5 pt-3 ml-5 mt-4" >
-                <h5 class="mt-0 text-white"><strong>Amigos</strong></h5> 
+        <div class="col justify-content-right ml-5 mb-0 mr-6" id="ladoDireito">   
+           <div class="col sm-5 pt-3 mt-4" >
+                <h5 class="mt-0 text-warning ml-5"><strong>Amigos</strong></h5> 
                <!--primeira linha -->   
-               <div class="media " >
+               <div class="media ml-5" >
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
@@ -245,7 +240,7 @@
                 </div>
 
                 <!--segunda linha --> 
-                <div class="media " >
+                <div class="media ml-5" >
                     
                 <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
@@ -270,7 +265,7 @@
                     </div> 
                 </div>
                 <!--terceira linha --> 
-                <div class="media " >
+                <div class="media ml-5" >
                     
                      <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
@@ -295,7 +290,7 @@
                     </div> 
                 </div>
                  <!--quarta linha --> 
-                 <div class="media " >
+                 <div class="media ml-5" >
                     
                  <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                         <div class="img-animation">
@@ -320,7 +315,7 @@
                     </div> 
                 </div>
                 <!--quinta linha --> 
-                <div class="media " >
+                <div class="media ml-5" >
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
@@ -346,7 +341,7 @@
                    </div>
 
                  <!--sexta linha --> 
-                 <div class="media " >
+                 <div class="media ml-5" >
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
@@ -371,7 +366,7 @@
                        </div> 
                    </div>
                 <!--setima linha --> 
-                <div class="media " >
+                <div class="media ml-5" >
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
@@ -396,7 +391,7 @@
                        </div> 
                    </div>
                 <!--oitava linha --> 
-                <div class="media " >
+                <div class="media ml-5" >
                     
                     <div class="card bg-warning text-white border-warning mt-3 mb-5" style="width: 7rem; height: 7rem;">  <!--botom topo -->   
                            <div class="img-animation">
