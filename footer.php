@@ -7,8 +7,8 @@
 
                 <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
                     <ul class="list-unstyled">
-                        <li><p><a href="#!">Sobre Nós</a></p></li>
-                        <li><p><a href="#!">Suporte</a></p></li>
+                        <li><p><a href="sobre.php">Quem Somos</a></p></li>
+                        <li><p><a href="suporte.php">Suporte</a></p></li>
                         <li><p><a href="#!">Termos de Uso</a></p></li>
                         <li><p><a href="#!">Politica de Dados</a></p></li>
                         <li><p><a href="#!">Politica de Cookies</a></p></li>

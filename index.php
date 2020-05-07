@@ -39,19 +39,20 @@
     <div class="container-fluid d-flex align-content-around flex-wrap justify-content-center">      
         <div class="d-flex">
         <form class="form-inline">
-            <div class="line_register">
-                <label class="sr-only" for="inlineFormInputName2">Name</label>
-                <input type="text" class="form-control mb-2 mr-sm-2 mr-xs-2" id="inlineFormInputName2" placeholder="Jane Doe">
-                <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-            </div>
-            <div class="input-group mb-2 mr-sm-2 mr-xs-2 line_register">
+        <div class="input-group mb-2 mr-sm-2 mr-xs-2 line_register">
                 <div class="input-group-prepend">
                 <div class="input-group-text">@</div>
             </div>
             <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
     </div>  
 
-  <button type="submit" class="btn btn-primary mb-2">Registrar</button>
+            <div class="line_register">
+                <label class="sr-only" for="inlineFormInputName2">Name</label>
+                <input type="password" class="form-control mb-2 mr-sm-2 mr-xs-2" id="inlineFormInputName2" placeholder="Senha">
+                <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+            </div>
+            
+  <button type="submit" class="btn btn-primary mb-2">Entrar</button>
   <button type="submit" class="btn btn-primary mb-2 ml-2 btn_hidden">Entrar</button>
 </form>
         </div>

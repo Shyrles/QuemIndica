@@ -35,9 +35,12 @@
           <input type="checkbox" value="remember-me"> Lembrar de mim
         </label>
       </div>
-      <button class="btn btn-lg btn-block padrao" type="submit">Login</button>
-      
-    </form>  
+      <button class="btn btn-lg btn-block padrao" type="submit">Entrar</button>
+      <div class="espaco">
+      <a href = "#"> Esqueci minha senha</a> 
+      </div>
+    </form> 
+   
    
     <?php require_once ("footer.php"); ?>
 

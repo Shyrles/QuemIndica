@@ -19,7 +19,7 @@
     <?php require_once ("header_minhaConta.php"); ?>
 
     <div class="container mt-4 mb-n5" id="posicao"> 
-        <div class="row justify-content-center pt-4 pb-5" >  
+        <div class="row  pt-4 pb-5" >  
           
         <!--Primeira Coluna Minhas Hashtags -->   
            <div class="col-sm-2 sm-12 pt-3" id="minhasHashtags">

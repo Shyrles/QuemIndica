@@ -24,6 +24,12 @@ header {
     text-transform: uppercase;
 }
 
+#cores a {
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
 
 /* SOMENTE ESSA ID ACIMA */
 
@@ -38,18 +44,17 @@ header {
 
 /* barra de busca */
 
+
 /* <<<<<<< HEADER */
 
 .divBusca {
-    background-color: white;
-    background-size:3vh;
+    background-size: 3vh;
     background-image: url('../imagens/loupe.png');
-    background-position: 96%; 
+    background-position: 96%;
     background-repeat: no-repeat;
     border: solid 1px;
     border-color: #cccccc;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 #txtBusca {
@@ -58,13 +63,6 @@ header {
     padding-left: 5px;
     font-size: 18px;
     border: none;
-}
-
-
-#fotoUsuario {
-    float: right;
-    margin: 0 10px;
-    padding: 2px 0;
 }
 
 .fundo {
@@ -168,6 +166,10 @@ span#sobre h4 {
 
 form {
     display: block;
+}
+
+.espaco {
+    padding: 20px;
 }
 
 

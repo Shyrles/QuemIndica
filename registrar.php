@@ -20,7 +20,7 @@
     <section class="banner_azul">
         <div class="container text-center">
         <img src="imagens/logo_icon.svg" class="rounded" id="quemindica" alt="Quem Indica">
-        <h1><strong>Registrar</strong></h1>
+        <h1><strong>Criar Conta</strong></h1>
         </div>
     </section>
            
@@ -63,7 +63,7 @@
                        <label for="termos">
                       <input type="checkbox" name="termos" id="termos" value="termos">Aceita os termos e condições</label>
                    <div class="espaco">
-                      <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Registrar</a></button>
+                      <button class="padrao" type="submit"><a class= "padrao" href="feed.php">Criar Conta</a></button>
                   </div>
                 </form>
         

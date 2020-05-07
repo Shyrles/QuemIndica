@@ -1,27 +1,25 @@
-<header class="navbar navbar-expand bd-navbar fixed-top fundo">
+<nav class="navbar navbar-expand-lg bd-navbar navbar-light fixed-top fundo">
 
-<!-- Logo esquerda -->
+
+<div class="d-flex">
 <img src="imagens/logo_icon.svg" width="50" height="50" >
-   
-
-<!-- Barra de busca -->
-
-<div>
-    <form class="form-inline teste">
-        <input class="form-control mr-sm-2 divBusca" type="search" placeholder="Buscar" aria-label="Search">  
+    <form class="form-inline">
+        <input class="form-control  divBusca" type="search" placeholder="Buscar" aria-label="Search">  
     </form>
 </div>
 
 <!-- Botões direita -->
-<ul class="navbar-nav flex-row ml-md-auto d-flex">
-    <li class="nav-item">
+<button class="navbar-toggler bg-light " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <img id="fotoUsuario" src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do usuario" width="40px" class="rounded">
-
-    </li>
+  <div class="collapse navbar-collapse" id="navbarNav">
+ 
     
-
+  <div class= "navbar-nav ml-auto">
     <div class="dropdown">
+        <img src="imagens/minhaConta/fotoUsuario.jpg" alt="Foto do usuario" width="40px" class="rounded">
+
         <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Shyrles Monteiro
         </a>
@@ -31,12 +29,12 @@
             <a class="dropdown-item" href="servicos.php">Serviços</a>
             <a class="dropdown-item" href="minha_conta.php">Meu Perfil</a>
             <a class="dropdown-item" href="faq.php">FAQ</a>
-            <a class="dropdown-item" href="sobre.php">Sobre nós</a>
+            <a class="dropdown-item" href="sobre.php">Quem Somos</a>
             <a class="dropdown-item" href="suporte.php">Suporte</a>
             <a class="dropdown-item" href="index.php">Sair</a>          
         </div>
     </div>
+    </div>
 
-</ul>
 
-</header>
+</nav>
