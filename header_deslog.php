@@ -7,9 +7,7 @@
    <strong>Quem Indica</strong> 
   </a>
   
-  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ">
       <li class="nav-item active">
@@ -27,7 +25,7 @@
   <img src="imagens/usuario.png"  width="40" height="40" alt="">
  
   <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <strong>Bem-vindo</strong>
+  <strong id="bemvindo">Bem-vindo</strong>
   </a>
 
   <div class="dropdown " id="cores">
