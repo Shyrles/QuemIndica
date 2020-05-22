@@ -36,7 +36,27 @@
                         <h4 class="modal-title">Login</h4><!-- Título -->
                     </div>
                     <div class="modal-body"><!-- Corpo do modal -->
-                        <form action=""><!-- Início do Formulário -->
+                        
+                    <form class="form-signin" action="login.php" method="POST">
+     
+      
+      <label for="inputEmail" class="sr-only">Endereço de email</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required=""><br>
+      <label for="inputPassword" class="sr-only">Senha</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Lembrar de mim
+        </label>
+      </div>
+      <button class="btn btn-lg btn-block padrao" type="submit">Entrar</button>
+      <div class="mb-3 text-center">
+      <a href = "#">Esqueci minha senha</a> 
+      </div>
+      <button class="btn btn-lg btn-block padrao" type="submit">Cadastrar</button>
+    </form> 
+                    <!-- Início do Formulário -->
+                    <!-- <form action="">
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="Digite seu email">
                             </div>
@@ -44,7 +64,7 @@
                                 <input type="password" class="form-control" placeholder="Digite sua senha">
                             </div>
                             <button class="btn btn-block btn-info">Enviar</button>
-                        </form>
+                        </form> -->
                     </div>
                     <div class="modal-footer"><!-- Footer do Modal -->
                         <button type="button" class="btn btn-default" data-dismiss="modal">
