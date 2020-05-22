@@ -46,6 +46,31 @@ header {
 
 
 /* <<<<<<< HEADER */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button1 {
+    background-color: #007592; 
+    color: #FCDA73; 
+    border: 1px solid #FCDA73;
+    border-radius: 5px;
+  }
+  
+  .button1:hover {
+    background-color: #FCDA73;
+    color: #007592;
+  }
 
 .divBusca {
     background-size: 3vh;
@@ -236,8 +261,3 @@ footer {
     }
 }
 
-@media (max-width: 541px) {
-    #bemvindo {
-        display: none;
-    }
-}

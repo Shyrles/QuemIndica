@@ -1,50 +1,49 @@
 <header class="container-fluid fixed-top">     
-
-<div class="pos-f-t">
- 
-<nav class="navbar navbar-expand-lg navbar-light  ml-auto " id="btn_qi">
   
-  <a class="navbar-brand " href="#">
-    <img src="imagens/logo_icon.svg" width="50" height="50" alt="">
-   <strong>Quem Indica</strong> 
-  </a>
-  
-  
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php"><img src="icones/home1.png" width="35" height="35" alt = "home"></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="suporte.php"><img src="icones/suporte.png" width="50" height="50" alt = "suporte"></a>
-      </li>
-     
-      </ul>
-  </div>
-
-  <div class= "dropdown">
-      <img src="imagens/usuario.png"  width="40" height="40" alt="">
+<nav class="navbar" id="btn_qi"><!-- Código do NavBar -->
     
-      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" 
-      aria-expanded="false">
-      <strong id="bemvindo">Bem-vindo</strong>
-      </a>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand " href="#">
+          <img src="imagens/logo_icon.svg" width="50" height="50" alt="">
+          <strong>Quem Indica</strong> 
+        </a>
+      </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" data-toggle="modal" data-target="#myModal"><!-- Link que abre a janela modal -->
+                        <button class="button button1 text-uppercase"><strong>Entrar</strong></button>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-  <div class="dropdown" id="cores">
-      
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item"  href="login.php">Entrar</a>
-      <a class="dropdown-item"  href="registrar.php">Criar Conta</a>
-    </div>
-  </div>
-</div>
+</header>
 
-
-
-        
-  
-</nav>
-
-
-      </header>
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog"><!-- Início do código da janela modal -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header"><!-- Header do modal -->
+                        <h4 class="modal-title">Login</h4><!-- Título -->
+                    </div>
+                    <div class="modal-body"><!-- Corpo do modal -->
+                        <form action=""><!-- Início do Formulário -->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                            <button class="btn btn-block btn-info">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer"><!-- Footer do Modal -->
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Fechar <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        </button>                
+                    </div>
+                </div>
+            </div>
+        </div><!-- ##Fim do Modal -->
       
