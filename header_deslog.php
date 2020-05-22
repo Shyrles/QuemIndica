@@ -8,16 +8,24 @@
           <img src="imagens/logo_icon.svg" width="50" height="50" alt="">
           <strong>Quem Indica</strong> 
         </a>
+        
       </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" data-toggle="modal" data-target="#myModal"><!-- Link que abre a janela modal -->
-                        <button class="button button1 text-uppercase"><strong>Entrar</strong></button>
-                                
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+      
+          
+          <ul class="nav navbar-nav navbar-right list-group list-group-horizontal">
+              <li>
+              <a href="suporte.php"><button class="button_suporte button1"><img src="icones/suporte.png" 
+            width="40" height="40" alt = "suporte"></button></a>
+              </li>
+              <li>
+              <a href="#" data-toggle="modal" data-target="#myModal"><!-- Link que abre a janela modal -->
+              <button class="button button1 text-uppercase"><strong>Entrar</strong></button>
+              </a>
+              </li>
+          </ul>
+          
+      </div>
+</nav>
 
 </header>
 

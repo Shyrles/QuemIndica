@@ -46,8 +46,7 @@ header {
 
 
 /* <<<<<<< HEADER */
-.button {
-    background-color: #4CAF50; /* Green */
+.button, .button_suporte {
     border: none;
     color: white;
     padding: 8px 24px;
@@ -59,6 +58,10 @@ header {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
+.button_suporte {
+    padding: 0 8px;
+}
 
 .button1 {
     background-color: #007592; 
