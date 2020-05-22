@@ -4,9 +4,9 @@
     
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand " href="#">
+        <a class="navbar-brand " href="index.php">
           <img src="imagens/logo_icon.svg" width="50" height="50" alt="">
-          <strong>Quem Indica</strong> 
+          <strong id="quemindica">Quem Indica</strong> 
         </a>
         
       </div>

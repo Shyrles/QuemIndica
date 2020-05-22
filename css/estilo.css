@@ -261,3 +261,8 @@ footer {
     }
 }
 
+@media (max-width: 514px) {
+    #quemindica {
+        display: none;
+    }
+}
